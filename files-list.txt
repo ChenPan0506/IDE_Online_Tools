@@ -1,0 +1,3958 @@
+卷 Windows  的文件夹 PATH 列表
+卷序列号为 E025-99E3
+C:.
+│  files-list.txt
+│  ide_online_tools.log
+│  ide_online_tools.log.2020-05-12
+│  model-0522.py
+│  requirements.txt
+│  run.py
+│  settings.py
+│  
+├─.idea
+│  │  IDE_Online_Tools.iml
+│  │  misc.xml
+│  │  modules.xml
+│  │  workspace.xml
+│  │  
+│  ├─dictionaries
+│  │      PanChen.xml
+│  │      
+│  └─inspectionProfiles
+│          profiles_settings.xml
+│          
+├─data
+│  ├─model_files
+│  │  └─final_test_model_20200422
+│  │      │  DTC_BOM_VX1_TS0001_200413.xlsx
+│  │      │  VDES_BOM_VX1_TS0001_200413.xlsx
+│  │      │  
+│  │      └─Model
+│  │              100000104_整车域控制器_Incomplete_200410.xlsx
+│  │              100000251_电池包_test_200409.xlsx
+│  │              300000005_电池冷却系统水泵总成_200408.xlsx
+│  │              300000010_电驱电池冷却系统冷却液壶总成_200407.xlsx
+│  │              300000023_电池冷却系统温控模块总成_200403.xlsx
+│  │              300000100_空调控制器_Incomplete_200304.xlsx
+│  │              30000RE01_电池冷却系统回路水管_200403.xlsx
+│  │              700000323_前舱底盘线束_Incomplete_200410.xlsx
+│  │              Netlist_TS0001_测试系统.xlsx
+│  │              
+│  ├─model_management_files
+│  └─output
+│          BCOOL0426-1-sys.db
+│          BCOOL0426-1-sys.xlsx
+│          BCOOL0426-final-sys.xlsx
+│          BCOOL0426-jixie-sys.xlsx
+│          BCOOL0426-merge-sys.xlsx
+│          BCOOL0511-1-sys.xlsx
+│          BCOOL0511-final-sys.xlsx
+│          BCOOL0511-jixie-sys.xlsx
+│          BCOOL0511-merge-sys.xlsx
+│          
+├─ide_online_tools
+│  │  main.py
+│  │  views.py
+│  │  __init__.py
+│  │  
+│  └─model_management
+│      │  settings.py
+│      │  __init__.py
+│      │  
+│      ├─model_integration
+│      │  │  views.py
+│      │  │  __init__.py
+│      │  │  
+│      │  ├─core
+│      │  │      BasePart.py
+│      │  │      BaseReasoner.py
+│      │  │      BaseSheet.py
+│      │  │      BaseSystem.py
+│      │  │      data_extract.py
+│      │  │      model_to_db.py
+│      │  │      test.py
+│      │  │      __init__.py
+│      │  │      
+│      │  ├─static
+│      │  │      xx.css
+│      │  │      xx.js
+│      │  │      
+│      │  ├─templates
+│      │  │      xx.html
+│      │  │      
+│      │  └─__pycache__
+│      ├─model_transform
+│      │  │  settings.py
+│      │  │  tables.py
+│      │  │  views.py
+│      │  │  __init__.py
+│      │  │  
+│      │  ├─core
+│      │  │      transform.py
+│      │  │      uid_generator.py
+│      │  │      
+│      │  ├─static
+│      │  │      xx.css
+│      │  │      xx.js
+│      │  │      
+│      │  ├─templates
+│      │  │      xx.html
+│      │  │      
+│      │  └─__pycache__
+│      └─__pycache__
+├─tests
+│      unit_test.py
+│      __init__.py
+│      
+├─venv
+│  │  pyvenv.cfg
+│  │  
+│  ├─Include
+│  │  └─site
+│  │      └─python3.6
+│  │          └─greenlet
+│  │                  greenlet.h
+│  │                  
+│  ├─Lib
+│  │  ├─site-packages
+│  │  │  │  docopt.py
+│  │  │  │  flask_sockets.py
+│  │  │  │  flask_uploads.py
+│  │  │  │  greenlet.cp36-win_amd64.pyd
+│  │  │  │  inflect.py
+│  │  │  │  pymssql.cp36-win_amd64.pyd
+│  │  │  │  zipp.py
+│  │  │  │  _cffi_backend.cp36-win_amd64.pyd
+│  │  │  │  _mssql.cp36-win_amd64.pyd
+│  │  │  │  
+│  │  │  ├─cffi
+│  │  │  │  │  api.py
+│  │  │  │  │  backend_ctypes.py
+│  │  │  │  │  cffi_opcode.py
+│  │  │  │  │  commontypes.py
+│  │  │  │  │  cparser.py
+│  │  │  │  │  error.py
+│  │  │  │  │  ffiplatform.py
+│  │  │  │  │  lock.py
+│  │  │  │  │  model.py
+│  │  │  │  │  parse_c_type.h
+│  │  │  │  │  pkgconfig.py
+│  │  │  │  │  recompiler.py
+│  │  │  │  │  setuptools_ext.py
+│  │  │  │  │  vengine_cpy.py
+│  │  │  │  │  vengine_gen.py
+│  │  │  │  │  verifier.py
+│  │  │  │  │  _cffi_errors.h
+│  │  │  │  │  _cffi_include.h
+│  │  │  │  │  _embedding.h
+│  │  │  │  │  __init__.py
+│  │  │  │  │  
+│  │  │  │  └─__pycache__
+│  │  │  │          api.cpython-36.pyc
+│  │  │  │          backend_ctypes.cpython-36.pyc
+│  │  │  │          cffi_opcode.cpython-36.pyc
+│  │  │  │          commontypes.cpython-36.pyc
+│  │  │  │          cparser.cpython-36.pyc
+│  │  │  │          error.cpython-36.pyc
+│  │  │  │          ffiplatform.cpython-36.pyc
+│  │  │  │          lock.cpython-36.pyc
+│  │  │  │          model.cpython-36.pyc
+│  │  │  │          pkgconfig.cpython-36.pyc
+│  │  │  │          recompiler.cpython-36.pyc
+│  │  │  │          setuptools_ext.cpython-36.pyc
+│  │  │  │          vengine_cpy.cpython-36.pyc
+│  │  │  │          vengine_gen.cpython-36.pyc
+│  │  │  │          verifier.cpython-36.pyc
+│  │  │  │          __init__.cpython-36.pyc
+│  │  │  │          
+│  │  │  ├─cffi-1.14.0.dist-info
+│  │  │  │      entry_points.txt
+│  │  │  │      INSTALLER
+│  │  │  │      LICENSE
+│  │  │  │      METADATA
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─docopt-0.6.2.dist-info
+│  │  │  │      INSTALLER
+│  │  │  │      LICENSE-MIT
+│  │  │  │      METADATA
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─Flask_Sockets-0.2.1.dist-info
+│  │  │  │      DESCRIPTION.rst
+│  │  │  │      INSTALLER
+│  │  │  │      METADATA
+│  │  │  │      metadata.json
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─flask_sqlalchemy
+│  │  │  │  │  model.py
+│  │  │  │  │  utils.py
+│  │  │  │  │  _compat.py
+│  │  │  │  │  __init__.py
+│  │  │  │  │  
+│  │  │  │  └─__pycache__
+│  │  │  │          model.cpython-36.pyc
+│  │  │  │          utils.cpython-36.pyc
+│  │  │  │          _compat.cpython-36.pyc
+│  │  │  │          __init__.cpython-36.pyc
+│  │  │  │          
+│  │  │  ├─Flask_SQLAlchemy-2.4.1.dist-info
+│  │  │  │      INSTALLER
+│  │  │  │      LICENSE.rst
+│  │  │  │      METADATA
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─Flask_Uploads-0.2.1.dist-info
+│  │  │  │      INSTALLER
+│  │  │  │      METADATA
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      version_info.json
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─geventwebsocket
+│  │  │  │  │  exceptions.py
+│  │  │  │  │  handler.py
+│  │  │  │  │  logging.py
+│  │  │  │  │  resource.py
+│  │  │  │  │  server.py
+│  │  │  │  │  utf8validator.py
+│  │  │  │  │  utils.py
+│  │  │  │  │  websocket.py
+│  │  │  │  │  _compat.py
+│  │  │  │  │  __init__.py
+│  │  │  │  │  
+│  │  │  │  ├─gunicorn
+│  │  │  │  │  │  workers.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          workers.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─protocols
+│  │  │  │  │  │  base.py
+│  │  │  │  │  │  wamp.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          base.cpython-36.pyc
+│  │  │  │  │          wamp.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  └─__pycache__
+│  │  │  │          exceptions.cpython-36.pyc
+│  │  │  │          handler.cpython-36.pyc
+│  │  │  │          logging.cpython-36.pyc
+│  │  │  │          resource.cpython-36.pyc
+│  │  │  │          server.cpython-36.pyc
+│  │  │  │          utf8validator.cpython-36.pyc
+│  │  │  │          utils.cpython-36.pyc
+│  │  │  │          websocket.cpython-36.pyc
+│  │  │  │          _compat.cpython-36.pyc
+│  │  │  │          __init__.cpython-36.pyc
+│  │  │  │          
+│  │  │  ├─gevent_websocket-0.10.1.dist-info
+│  │  │  │      DESCRIPTION.rst
+│  │  │  │      INSTALLER
+│  │  │  │      METADATA
+│  │  │  │      metadata.json
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─greenlet-0.4.15.dist-info
+│  │  │  │      INSTALLER
+│  │  │  │      METADATA
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─importlib_metadata
+│  │  │  │  │  _compat.py
+│  │  │  │  │  __init__.py
+│  │  │  │  │  
+│  │  │  │  ├─docs
+│  │  │  │  │  │  changelog.rst
+│  │  │  │  │  │  conf.py
+│  │  │  │  │  │  index.rst
+│  │  │  │  │  │  using.rst
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          conf.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─tests
+│  │  │  │  │  │  fixtures.py
+│  │  │  │  │  │  test_api.py
+│  │  │  │  │  │  test_integration.py
+│  │  │  │  │  │  test_main.py
+│  │  │  │  │  │  test_zip.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─data
+│  │  │  │  │  │  │  example-21.12-py3-none-any.whl
+│  │  │  │  │  │  │  example-21.12-py3.6.egg
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          fixtures.cpython-36.pyc
+│  │  │  │  │          test_api.cpython-36.pyc
+│  │  │  │  │          test_integration.cpython-36.pyc
+│  │  │  │  │          test_main.cpython-36.pyc
+│  │  │  │  │          test_zip.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  └─__pycache__
+│  │  │  │          _compat.cpython-36.pyc
+│  │  │  │          __init__.cpython-36.pyc
+│  │  │  │          
+│  │  │  ├─importlib_metadata-1.6.0.dist-info
+│  │  │  │      INSTALLER
+│  │  │  │      LICENSE
+│  │  │  │      METADATA
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─inflect-4.1.0.dist-info
+│  │  │  │      INSTALLER
+│  │  │  │      LICENSE
+│  │  │  │      METADATA
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─numpy
+│  │  │  │  │  conftest.py
+│  │  │  │  │  ctypeslib.py
+│  │  │  │  │  dual.py
+│  │  │  │  │  LICENSE.txt
+│  │  │  │  │  matlib.py
+│  │  │  │  │  setup.py
+│  │  │  │  │  version.py
+│  │  │  │  │  _distributor_init.py
+│  │  │  │  │  _globals.py
+│  │  │  │  │  _pytesttester.py
+│  │  │  │  │  __config__.py
+│  │  │  │  │  __init__.py
+│  │  │  │  │  
+│  │  │  │  ├─.libs
+│  │  │  │  │      libopenblas.PYQHXLVVQ7VESDPUVUADXEVJOBGHJPAY.gfortran-win_amd64.dll
+│  │  │  │  │      
+│  │  │  │  ├─compat
+│  │  │  │  │  │  py3k.py
+│  │  │  │  │  │  setup.py
+│  │  │  │  │  │  _inspect.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─tests
+│  │  │  │  │  │  │  test_compat.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_compat.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          py3k.cpython-36.pyc
+│  │  │  │  │          setup.cpython-36.pyc
+│  │  │  │  │          _inspect.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─core
+│  │  │  │  │  │  arrayprint.py
+│  │  │  │  │  │  cversions.py
+│  │  │  │  │  │  defchararray.py
+│  │  │  │  │  │  einsumfunc.py
+│  │  │  │  │  │  fromnumeric.py
+│  │  │  │  │  │  function_base.py
+│  │  │  │  │  │  generate_numpy_api.py
+│  │  │  │  │  │  getlimits.py
+│  │  │  │  │  │  machar.py
+│  │  │  │  │  │  memmap.py
+│  │  │  │  │  │  multiarray.py
+│  │  │  │  │  │  numeric.py
+│  │  │  │  │  │  numerictypes.py
+│  │  │  │  │  │  overrides.py
+│  │  │  │  │  │  records.py
+│  │  │  │  │  │  setup.py
+│  │  │  │  │  │  setup_common.py
+│  │  │  │  │  │  shape_base.py
+│  │  │  │  │  │  umath.py
+│  │  │  │  │  │  umath_tests.py
+│  │  │  │  │  │  _add_newdocs.py
+│  │  │  │  │  │  _asarray.py
+│  │  │  │  │  │  _dtype.py
+│  │  │  │  │  │  _dtype_ctypes.py
+│  │  │  │  │  │  _exceptions.py
+│  │  │  │  │  │  _internal.py
+│  │  │  │  │  │  _methods.py
+│  │  │  │  │  │  _multiarray_tests.cp36-win_amd64.pyd
+│  │  │  │  │  │  _multiarray_umath.cp36-win_amd64.pyd
+│  │  │  │  │  │  _operand_flag_tests.cp36-win_amd64.pyd
+│  │  │  │  │  │  _rational_tests.cp36-win_amd64.pyd
+│  │  │  │  │  │  _string_helpers.py
+│  │  │  │  │  │  _struct_ufunc_tests.cp36-win_amd64.pyd
+│  │  │  │  │  │  _type_aliases.py
+│  │  │  │  │  │  _ufunc_config.py
+│  │  │  │  │  │  _umath_tests.cp36-win_amd64.pyd
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─include
+│  │  │  │  │  │  └─numpy
+│  │  │  │  │  │      │  arrayobject.h
+│  │  │  │  │  │      │  arrayscalars.h
+│  │  │  │  │  │      │  halffloat.h
+│  │  │  │  │  │      │  multiarray_api.txt
+│  │  │  │  │  │      │  ndarrayobject.h
+│  │  │  │  │  │      │  ndarraytypes.h
+│  │  │  │  │  │      │  noprefix.h
+│  │  │  │  │  │      │  npy_1_7_deprecated_api.h
+│  │  │  │  │  │      │  npy_3kcompat.h
+│  │  │  │  │  │      │  npy_common.h
+│  │  │  │  │  │      │  npy_cpu.h
+│  │  │  │  │  │      │  npy_endian.h
+│  │  │  │  │  │      │  npy_interrupt.h
+│  │  │  │  │  │      │  npy_math.h
+│  │  │  │  │  │      │  npy_no_deprecated_api.h
+│  │  │  │  │  │      │  npy_os.h
+│  │  │  │  │  │      │  numpyconfig.h
+│  │  │  │  │  │      │  oldnumeric.h
+│  │  │  │  │  │      │  old_defines.h
+│  │  │  │  │  │      │  ufuncobject.h
+│  │  │  │  │  │      │  ufunc_api.txt
+│  │  │  │  │  │      │  utils.h
+│  │  │  │  │  │      │  _neighborhood_iterator_imp.h
+│  │  │  │  │  │      │  _numpyconfig.h
+│  │  │  │  │  │      │  __multiarray_api.h
+│  │  │  │  │  │      │  __ufunc_api.h
+│  │  │  │  │  │      │  
+│  │  │  │  │  │      └─random
+│  │  │  │  │  │              bitgen.h
+│  │  │  │  │  │              distributions.h
+│  │  │  │  │  │              
+│  │  │  │  │  ├─lib
+│  │  │  │  │  │  │  npymath.lib
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─npy-pkg-config
+│  │  │  │  │  │          mlib.ini
+│  │  │  │  │  │          npymath.ini
+│  │  │  │  │  │          
+│  │  │  │  │  ├─tests
+│  │  │  │  │  │  │  test_abc.py
+│  │  │  │  │  │  │  test_api.py
+│  │  │  │  │  │  │  test_arrayprint.py
+│  │  │  │  │  │  │  test_datetime.py
+│  │  │  │  │  │  │  test_defchararray.py
+│  │  │  │  │  │  │  test_deprecations.py
+│  │  │  │  │  │  │  test_dtype.py
+│  │  │  │  │  │  │  test_einsum.py
+│  │  │  │  │  │  │  test_errstate.py
+│  │  │  │  │  │  │  test_extint128.py
+│  │  │  │  │  │  │  test_function_base.py
+│  │  │  │  │  │  │  test_getlimits.py
+│  │  │  │  │  │  │  test_half.py
+│  │  │  │  │  │  │  test_indexerrors.py
+│  │  │  │  │  │  │  test_indexing.py
+│  │  │  │  │  │  │  test_issue14735.py
+│  │  │  │  │  │  │  test_item_selection.py
+│  │  │  │  │  │  │  test_longdouble.py
+│  │  │  │  │  │  │  test_machar.py
+│  │  │  │  │  │  │  test_memmap.py
+│  │  │  │  │  │  │  test_mem_overlap.py
+│  │  │  │  │  │  │  test_multiarray.py
+│  │  │  │  │  │  │  test_nditer.py
+│  │  │  │  │  │  │  test_numeric.py
+│  │  │  │  │  │  │  test_numerictypes.py
+│  │  │  │  │  │  │  test_overrides.py
+│  │  │  │  │  │  │  test_print.py
+│  │  │  │  │  │  │  test_records.py
+│  │  │  │  │  │  │  test_regression.py
+│  │  │  │  │  │  │  test_scalarbuffer.py
+│  │  │  │  │  │  │  test_scalarinherit.py
+│  │  │  │  │  │  │  test_scalarmath.py
+│  │  │  │  │  │  │  test_scalarprint.py
+│  │  │  │  │  │  │  test_scalar_ctors.py
+│  │  │  │  │  │  │  test_scalar_methods.py
+│  │  │  │  │  │  │  test_shape_base.py
+│  │  │  │  │  │  │  test_ufunc.py
+│  │  │  │  │  │  │  test_umath.py
+│  │  │  │  │  │  │  test_umath_accuracy.py
+│  │  │  │  │  │  │  test_umath_complex.py
+│  │  │  │  │  │  │  test_unicode.py
+│  │  │  │  │  │  │  test__exceptions.py
+│  │  │  │  │  │  │  _locales.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─data
+│  │  │  │  │  │  │      astype_copy.pkl
+│  │  │  │  │  │  │      recarray_from_file.fits
+│  │  │  │  │  │  │      umath-validation-set-cos
+│  │  │  │  │  │  │      umath-validation-set-exp
+│  │  │  │  │  │  │      umath-validation-set-log
+│  │  │  │  │  │  │      umath-validation-set-README
+│  │  │  │  │  │  │      umath-validation-set-sin
+│  │  │  │  │  │  │      
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_abc.cpython-36.pyc
+│  │  │  │  │  │          test_api.cpython-36.pyc
+│  │  │  │  │  │          test_arrayprint.cpython-36.pyc
+│  │  │  │  │  │          test_datetime.cpython-36.pyc
+│  │  │  │  │  │          test_defchararray.cpython-36.pyc
+│  │  │  │  │  │          test_deprecations.cpython-36.pyc
+│  │  │  │  │  │          test_dtype.cpython-36.pyc
+│  │  │  │  │  │          test_einsum.cpython-36.pyc
+│  │  │  │  │  │          test_errstate.cpython-36.pyc
+│  │  │  │  │  │          test_extint128.cpython-36.pyc
+│  │  │  │  │  │          test_function_base.cpython-36.pyc
+│  │  │  │  │  │          test_getlimits.cpython-36.pyc
+│  │  │  │  │  │          test_half.cpython-36.pyc
+│  │  │  │  │  │          test_indexerrors.cpython-36.pyc
+│  │  │  │  │  │          test_indexing.cpython-36.pyc
+│  │  │  │  │  │          test_issue14735.cpython-36.pyc
+│  │  │  │  │  │          test_item_selection.cpython-36.pyc
+│  │  │  │  │  │          test_longdouble.cpython-36.pyc
+│  │  │  │  │  │          test_machar.cpython-36.pyc
+│  │  │  │  │  │          test_memmap.cpython-36.pyc
+│  │  │  │  │  │          test_mem_overlap.cpython-36.pyc
+│  │  │  │  │  │          test_multiarray.cpython-36.pyc
+│  │  │  │  │  │          test_nditer.cpython-36.pyc
+│  │  │  │  │  │          test_numeric.cpython-36.pyc
+│  │  │  │  │  │          test_numerictypes.cpython-36.pyc
+│  │  │  │  │  │          test_overrides.cpython-36.pyc
+│  │  │  │  │  │          test_print.cpython-36.pyc
+│  │  │  │  │  │          test_records.cpython-36.pyc
+│  │  │  │  │  │          test_regression.cpython-36.pyc
+│  │  │  │  │  │          test_scalarbuffer.cpython-36.pyc
+│  │  │  │  │  │          test_scalarinherit.cpython-36.pyc
+│  │  │  │  │  │          test_scalarmath.cpython-36.pyc
+│  │  │  │  │  │          test_scalarprint.cpython-36.pyc
+│  │  │  │  │  │          test_scalar_ctors.cpython-36.pyc
+│  │  │  │  │  │          test_scalar_methods.cpython-36.pyc
+│  │  │  │  │  │          test_shape_base.cpython-36.pyc
+│  │  │  │  │  │          test_ufunc.cpython-36.pyc
+│  │  │  │  │  │          test_umath.cpython-36.pyc
+│  │  │  │  │  │          test_umath_accuracy.cpython-36.pyc
+│  │  │  │  │  │          test_umath_complex.cpython-36.pyc
+│  │  │  │  │  │          test_unicode.cpython-36.pyc
+│  │  │  │  │  │          test__exceptions.cpython-36.pyc
+│  │  │  │  │  │          _locales.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          arrayprint.cpython-36.pyc
+│  │  │  │  │          cversions.cpython-36.pyc
+│  │  │  │  │          defchararray.cpython-36.pyc
+│  │  │  │  │          einsumfunc.cpython-36.pyc
+│  │  │  │  │          fromnumeric.cpython-36.pyc
+│  │  │  │  │          function_base.cpython-36.pyc
+│  │  │  │  │          generate_numpy_api.cpython-36.pyc
+│  │  │  │  │          getlimits.cpython-36.pyc
+│  │  │  │  │          machar.cpython-36.pyc
+│  │  │  │  │          memmap.cpython-36.pyc
+│  │  │  │  │          multiarray.cpython-36.pyc
+│  │  │  │  │          numeric.cpython-36.pyc
+│  │  │  │  │          numerictypes.cpython-36.pyc
+│  │  │  │  │          overrides.cpython-36.pyc
+│  │  │  │  │          records.cpython-36.pyc
+│  │  │  │  │          setup.cpython-36.pyc
+│  │  │  │  │          setup_common.cpython-36.pyc
+│  │  │  │  │          shape_base.cpython-36.pyc
+│  │  │  │  │          umath.cpython-36.pyc
+│  │  │  │  │          umath_tests.cpython-36.pyc
+│  │  │  │  │          _add_newdocs.cpython-36.pyc
+│  │  │  │  │          _asarray.cpython-36.pyc
+│  │  │  │  │          _dtype.cpython-36.pyc
+│  │  │  │  │          _dtype_ctypes.cpython-36.pyc
+│  │  │  │  │          _exceptions.cpython-36.pyc
+│  │  │  │  │          _internal.cpython-36.pyc
+│  │  │  │  │          _methods.cpython-36.pyc
+│  │  │  │  │          _string_helpers.cpython-36.pyc
+│  │  │  │  │          _type_aliases.cpython-36.pyc
+│  │  │  │  │          _ufunc_config.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─distutils
+│  │  │  │  │  │  ccompiler.py
+│  │  │  │  │  │  compat.py
+│  │  │  │  │  │  conv_template.py
+│  │  │  │  │  │  core.py
+│  │  │  │  │  │  cpuinfo.py
+│  │  │  │  │  │  exec_command.py
+│  │  │  │  │  │  extension.py
+│  │  │  │  │  │  from_template.py
+│  │  │  │  │  │  intelccompiler.py
+│  │  │  │  │  │  lib2def.py
+│  │  │  │  │  │  line_endings.py
+│  │  │  │  │  │  log.py
+│  │  │  │  │  │  mingw32ccompiler.py
+│  │  │  │  │  │  misc_util.py
+│  │  │  │  │  │  msvc9compiler.py
+│  │  │  │  │  │  msvccompiler.py
+│  │  │  │  │  │  npy_pkg_config.py
+│  │  │  │  │  │  numpy_distribution.py
+│  │  │  │  │  │  pathccompiler.py
+│  │  │  │  │  │  setup.py
+│  │  │  │  │  │  system_info.py
+│  │  │  │  │  │  unixccompiler.py
+│  │  │  │  │  │  _shell_utils.py
+│  │  │  │  │  │  __config__.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─command
+│  │  │  │  │  │  │  autodist.py
+│  │  │  │  │  │  │  bdist_rpm.py
+│  │  │  │  │  │  │  build.py
+│  │  │  │  │  │  │  build_clib.py
+│  │  │  │  │  │  │  build_ext.py
+│  │  │  │  │  │  │  build_py.py
+│  │  │  │  │  │  │  build_scripts.py
+│  │  │  │  │  │  │  build_src.py
+│  │  │  │  │  │  │  config.py
+│  │  │  │  │  │  │  config_compiler.py
+│  │  │  │  │  │  │  develop.py
+│  │  │  │  │  │  │  egg_info.py
+│  │  │  │  │  │  │  install.py
+│  │  │  │  │  │  │  install_clib.py
+│  │  │  │  │  │  │  install_data.py
+│  │  │  │  │  │  │  install_headers.py
+│  │  │  │  │  │  │  sdist.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          autodist.cpython-36.pyc
+│  │  │  │  │  │          bdist_rpm.cpython-36.pyc
+│  │  │  │  │  │          build.cpython-36.pyc
+│  │  │  │  │  │          build_clib.cpython-36.pyc
+│  │  │  │  │  │          build_ext.cpython-36.pyc
+│  │  │  │  │  │          build_py.cpython-36.pyc
+│  │  │  │  │  │          build_scripts.cpython-36.pyc
+│  │  │  │  │  │          build_src.cpython-36.pyc
+│  │  │  │  │  │          config.cpython-36.pyc
+│  │  │  │  │  │          config_compiler.cpython-36.pyc
+│  │  │  │  │  │          develop.cpython-36.pyc
+│  │  │  │  │  │          egg_info.cpython-36.pyc
+│  │  │  │  │  │          install.cpython-36.pyc
+│  │  │  │  │  │          install_clib.cpython-36.pyc
+│  │  │  │  │  │          install_data.cpython-36.pyc
+│  │  │  │  │  │          install_headers.cpython-36.pyc
+│  │  │  │  │  │          sdist.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─fcompiler
+│  │  │  │  │  │  │  absoft.py
+│  │  │  │  │  │  │  compaq.py
+│  │  │  │  │  │  │  environment.py
+│  │  │  │  │  │  │  g95.py
+│  │  │  │  │  │  │  gnu.py
+│  │  │  │  │  │  │  hpux.py
+│  │  │  │  │  │  │  ibm.py
+│  │  │  │  │  │  │  intel.py
+│  │  │  │  │  │  │  lahey.py
+│  │  │  │  │  │  │  mips.py
+│  │  │  │  │  │  │  nag.py
+│  │  │  │  │  │  │  none.py
+│  │  │  │  │  │  │  pathf95.py
+│  │  │  │  │  │  │  pg.py
+│  │  │  │  │  │  │  sun.py
+│  │  │  │  │  │  │  vast.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          absoft.cpython-36.pyc
+│  │  │  │  │  │          compaq.cpython-36.pyc
+│  │  │  │  │  │          environment.cpython-36.pyc
+│  │  │  │  │  │          g95.cpython-36.pyc
+│  │  │  │  │  │          gnu.cpython-36.pyc
+│  │  │  │  │  │          hpux.cpython-36.pyc
+│  │  │  │  │  │          ibm.cpython-36.pyc
+│  │  │  │  │  │          intel.cpython-36.pyc
+│  │  │  │  │  │          lahey.cpython-36.pyc
+│  │  │  │  │  │          mips.cpython-36.pyc
+│  │  │  │  │  │          nag.cpython-36.pyc
+│  │  │  │  │  │          none.cpython-36.pyc
+│  │  │  │  │  │          pathf95.cpython-36.pyc
+│  │  │  │  │  │          pg.cpython-36.pyc
+│  │  │  │  │  │          sun.cpython-36.pyc
+│  │  │  │  │  │          vast.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─mingw
+│  │  │  │  │  │      gfortran_vs2003_hack.c
+│  │  │  │  │  │      
+│  │  │  │  │  ├─tests
+│  │  │  │  │  │  │  test_exec_command.py
+│  │  │  │  │  │  │  test_fcompiler.py
+│  │  │  │  │  │  │  test_fcompiler_gnu.py
+│  │  │  │  │  │  │  test_fcompiler_intel.py
+│  │  │  │  │  │  │  test_fcompiler_nagfor.py
+│  │  │  │  │  │  │  test_from_template.py
+│  │  │  │  │  │  │  test_mingw32ccompiler.py
+│  │  │  │  │  │  │  test_misc_util.py
+│  │  │  │  │  │  │  test_npy_pkg_config.py
+│  │  │  │  │  │  │  test_shell_utils.py
+│  │  │  │  │  │  │  test_system_info.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_exec_command.cpython-36.pyc
+│  │  │  │  │  │          test_fcompiler.cpython-36.pyc
+│  │  │  │  │  │          test_fcompiler_gnu.cpython-36.pyc
+│  │  │  │  │  │          test_fcompiler_intel.cpython-36.pyc
+│  │  │  │  │  │          test_fcompiler_nagfor.cpython-36.pyc
+│  │  │  │  │  │          test_from_template.cpython-36.pyc
+│  │  │  │  │  │          test_mingw32ccompiler.cpython-36.pyc
+│  │  │  │  │  │          test_misc_util.cpython-36.pyc
+│  │  │  │  │  │          test_npy_pkg_config.cpython-36.pyc
+│  │  │  │  │  │          test_shell_utils.cpython-36.pyc
+│  │  │  │  │  │          test_system_info.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          ccompiler.cpython-36.pyc
+│  │  │  │  │          compat.cpython-36.pyc
+│  │  │  │  │          conv_template.cpython-36.pyc
+│  │  │  │  │          core.cpython-36.pyc
+│  │  │  │  │          cpuinfo.cpython-36.pyc
+│  │  │  │  │          exec_command.cpython-36.pyc
+│  │  │  │  │          extension.cpython-36.pyc
+│  │  │  │  │          from_template.cpython-36.pyc
+│  │  │  │  │          intelccompiler.cpython-36.pyc
+│  │  │  │  │          lib2def.cpython-36.pyc
+│  │  │  │  │          line_endings.cpython-36.pyc
+│  │  │  │  │          log.cpython-36.pyc
+│  │  │  │  │          mingw32ccompiler.cpython-36.pyc
+│  │  │  │  │          misc_util.cpython-36.pyc
+│  │  │  │  │          msvc9compiler.cpython-36.pyc
+│  │  │  │  │          msvccompiler.cpython-36.pyc
+│  │  │  │  │          npy_pkg_config.cpython-36.pyc
+│  │  │  │  │          numpy_distribution.cpython-36.pyc
+│  │  │  │  │          pathccompiler.cpython-36.pyc
+│  │  │  │  │          setup.cpython-36.pyc
+│  │  │  │  │          system_info.cpython-36.pyc
+│  │  │  │  │          unixccompiler.cpython-36.pyc
+│  │  │  │  │          _shell_utils.cpython-36.pyc
+│  │  │  │  │          __config__.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─doc
+│  │  │  │  │  │  basics.py
+│  │  │  │  │  │  broadcasting.py
+│  │  │  │  │  │  byteswapping.py
+│  │  │  │  │  │  constants.py
+│  │  │  │  │  │  creation.py
+│  │  │  │  │  │  dispatch.py
+│  │  │  │  │  │  glossary.py
+│  │  │  │  │  │  indexing.py
+│  │  │  │  │  │  internals.py
+│  │  │  │  │  │  misc.py
+│  │  │  │  │  │  structured_arrays.py
+│  │  │  │  │  │  subclassing.py
+│  │  │  │  │  │  ufuncs.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          basics.cpython-36.pyc
+│  │  │  │  │          broadcasting.cpython-36.pyc
+│  │  │  │  │          byteswapping.cpython-36.pyc
+│  │  │  │  │          constants.cpython-36.pyc
+│  │  │  │  │          creation.cpython-36.pyc
+│  │  │  │  │          dispatch.cpython-36.pyc
+│  │  │  │  │          glossary.cpython-36.pyc
+│  │  │  │  │          indexing.cpython-36.pyc
+│  │  │  │  │          internals.cpython-36.pyc
+│  │  │  │  │          misc.cpython-36.pyc
+│  │  │  │  │          structured_arrays.cpython-36.pyc
+│  │  │  │  │          subclassing.cpython-36.pyc
+│  │  │  │  │          ufuncs.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─f2py
+│  │  │  │  │  │  auxfuncs.py
+│  │  │  │  │  │  capi_maps.py
+│  │  │  │  │  │  cb_rules.py
+│  │  │  │  │  │  cfuncs.py
+│  │  │  │  │  │  common_rules.py
+│  │  │  │  │  │  crackfortran.py
+│  │  │  │  │  │  diagnose.py
+│  │  │  │  │  │  f2py2e.py
+│  │  │  │  │  │  f2py_testing.py
+│  │  │  │  │  │  f90mod_rules.py
+│  │  │  │  │  │  func2subr.py
+│  │  │  │  │  │  rules.py
+│  │  │  │  │  │  setup.py
+│  │  │  │  │  │  use_rules.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  __main__.py
+│  │  │  │  │  │  __version__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─src
+│  │  │  │  │  │      fortranobject.c
+│  │  │  │  │  │      fortranobject.h
+│  │  │  │  │  │      
+│  │  │  │  │  ├─tests
+│  │  │  │  │  │  │  test_array_from_pyobj.py
+│  │  │  │  │  │  │  test_assumed_shape.py
+│  │  │  │  │  │  │  test_block_docstring.py
+│  │  │  │  │  │  │  test_callback.py
+│  │  │  │  │  │  │  test_common.py
+│  │  │  │  │  │  │  test_compile_function.py
+│  │  │  │  │  │  │  test_kind.py
+│  │  │  │  │  │  │  test_mixed.py
+│  │  │  │  │  │  │  test_parameter.py
+│  │  │  │  │  │  │  test_quoted_character.py
+│  │  │  │  │  │  │  test_regression.py
+│  │  │  │  │  │  │  test_return_character.py
+│  │  │  │  │  │  │  test_return_complex.py
+│  │  │  │  │  │  │  test_return_integer.py
+│  │  │  │  │  │  │  test_return_logical.py
+│  │  │  │  │  │  │  test_return_real.py
+│  │  │  │  │  │  │  test_semicolon_split.py
+│  │  │  │  │  │  │  test_size.py
+│  │  │  │  │  │  │  test_string.py
+│  │  │  │  │  │  │  util.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─src
+│  │  │  │  │  │  │  ├─array_from_pyobj
+│  │  │  │  │  │  │  │      wrapmodule.c
+│  │  │  │  │  │  │  │      
+│  │  │  │  │  │  │  ├─assumed_shape
+│  │  │  │  │  │  │  │      .f2py_f2cmap
+│  │  │  │  │  │  │  │      foo_free.f90
+│  │  │  │  │  │  │  │      foo_mod.f90
+│  │  │  │  │  │  │  │      foo_use.f90
+│  │  │  │  │  │  │  │      precision.f90
+│  │  │  │  │  │  │  │      
+│  │  │  │  │  │  │  ├─common
+│  │  │  │  │  │  │  │      block.f
+│  │  │  │  │  │  │  │      
+│  │  │  │  │  │  │  ├─kind
+│  │  │  │  │  │  │  │      foo.f90
+│  │  │  │  │  │  │  │      
+│  │  │  │  │  │  │  ├─mixed
+│  │  │  │  │  │  │  │      foo.f
+│  │  │  │  │  │  │  │      foo_fixed.f90
+│  │  │  │  │  │  │  │      foo_free.f90
+│  │  │  │  │  │  │  │      
+│  │  │  │  │  │  │  ├─parameter
+│  │  │  │  │  │  │  │      constant_both.f90
+│  │  │  │  │  │  │  │      constant_compound.f90
+│  │  │  │  │  │  │  │      constant_integer.f90
+│  │  │  │  │  │  │  │      constant_non_compound.f90
+│  │  │  │  │  │  │  │      constant_real.f90
+│  │  │  │  │  │  │  │      
+│  │  │  │  │  │  │  ├─regression
+│  │  │  │  │  │  │  │      inout.f90
+│  │  │  │  │  │  │  │      
+│  │  │  │  │  │  │  ├─size
+│  │  │  │  │  │  │  │      foo.f90
+│  │  │  │  │  │  │  │      
+│  │  │  │  │  │  │  └─string
+│  │  │  │  │  │  │          char.f90
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_array_from_pyobj.cpython-36.pyc
+│  │  │  │  │  │          test_assumed_shape.cpython-36.pyc
+│  │  │  │  │  │          test_block_docstring.cpython-36.pyc
+│  │  │  │  │  │          test_callback.cpython-36.pyc
+│  │  │  │  │  │          test_common.cpython-36.pyc
+│  │  │  │  │  │          test_compile_function.cpython-36.pyc
+│  │  │  │  │  │          test_kind.cpython-36.pyc
+│  │  │  │  │  │          test_mixed.cpython-36.pyc
+│  │  │  │  │  │          test_parameter.cpython-36.pyc
+│  │  │  │  │  │          test_quoted_character.cpython-36.pyc
+│  │  │  │  │  │          test_regression.cpython-36.pyc
+│  │  │  │  │  │          test_return_character.cpython-36.pyc
+│  │  │  │  │  │          test_return_complex.cpython-36.pyc
+│  │  │  │  │  │          test_return_integer.cpython-36.pyc
+│  │  │  │  │  │          test_return_logical.cpython-36.pyc
+│  │  │  │  │  │          test_return_real.cpython-36.pyc
+│  │  │  │  │  │          test_semicolon_split.cpython-36.pyc
+│  │  │  │  │  │          test_size.cpython-36.pyc
+│  │  │  │  │  │          test_string.cpython-36.pyc
+│  │  │  │  │  │          util.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          auxfuncs.cpython-36.pyc
+│  │  │  │  │          capi_maps.cpython-36.pyc
+│  │  │  │  │          cb_rules.cpython-36.pyc
+│  │  │  │  │          cfuncs.cpython-36.pyc
+│  │  │  │  │          common_rules.cpython-36.pyc
+│  │  │  │  │          crackfortran.cpython-36.pyc
+│  │  │  │  │          diagnose.cpython-36.pyc
+│  │  │  │  │          f2py2e.cpython-36.pyc
+│  │  │  │  │          f2py_testing.cpython-36.pyc
+│  │  │  │  │          f90mod_rules.cpython-36.pyc
+│  │  │  │  │          func2subr.cpython-36.pyc
+│  │  │  │  │          rules.cpython-36.pyc
+│  │  │  │  │          setup.cpython-36.pyc
+│  │  │  │  │          use_rules.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          __main__.cpython-36.pyc
+│  │  │  │  │          __version__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─fft
+│  │  │  │  │  │  helper.py
+│  │  │  │  │  │  setup.py
+│  │  │  │  │  │  _pocketfft.py
+│  │  │  │  │  │  _pocketfft_internal.cp36-win_amd64.pyd
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─tests
+│  │  │  │  │  │  │  test_helper.py
+│  │  │  │  │  │  │  test_pocketfft.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_helper.cpython-36.pyc
+│  │  │  │  │  │          test_pocketfft.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          helper.cpython-36.pyc
+│  │  │  │  │          setup.cpython-36.pyc
+│  │  │  │  │          _pocketfft.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─lib
+│  │  │  │  │  │  arraypad.py
+│  │  │  │  │  │  arraysetops.py
+│  │  │  │  │  │  arrayterator.py
+│  │  │  │  │  │  financial.py
+│  │  │  │  │  │  format.py
+│  │  │  │  │  │  function_base.py
+│  │  │  │  │  │  histograms.py
+│  │  │  │  │  │  index_tricks.py
+│  │  │  │  │  │  mixins.py
+│  │  │  │  │  │  nanfunctions.py
+│  │  │  │  │  │  npyio.py
+│  │  │  │  │  │  polynomial.py
+│  │  │  │  │  │  recfunctions.py
+│  │  │  │  │  │  scimath.py
+│  │  │  │  │  │  setup.py
+│  │  │  │  │  │  shape_base.py
+│  │  │  │  │  │  stride_tricks.py
+│  │  │  │  │  │  twodim_base.py
+│  │  │  │  │  │  type_check.py
+│  │  │  │  │  │  ufunclike.py
+│  │  │  │  │  │  user_array.py
+│  │  │  │  │  │  utils.py
+│  │  │  │  │  │  _datasource.py
+│  │  │  │  │  │  _iotools.py
+│  │  │  │  │  │  _version.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─tests
+│  │  │  │  │  │  │  test_arraypad.py
+│  │  │  │  │  │  │  test_arraysetops.py
+│  │  │  │  │  │  │  test_arrayterator.py
+│  │  │  │  │  │  │  test_financial.py
+│  │  │  │  │  │  │  test_format.py
+│  │  │  │  │  │  │  test_function_base.py
+│  │  │  │  │  │  │  test_histograms.py
+│  │  │  │  │  │  │  test_index_tricks.py
+│  │  │  │  │  │  │  test_io.py
+│  │  │  │  │  │  │  test_mixins.py
+│  │  │  │  │  │  │  test_nanfunctions.py
+│  │  │  │  │  │  │  test_packbits.py
+│  │  │  │  │  │  │  test_polynomial.py
+│  │  │  │  │  │  │  test_recfunctions.py
+│  │  │  │  │  │  │  test_regression.py
+│  │  │  │  │  │  │  test_shape_base.py
+│  │  │  │  │  │  │  test_stride_tricks.py
+│  │  │  │  │  │  │  test_twodim_base.py
+│  │  │  │  │  │  │  test_type_check.py
+│  │  │  │  │  │  │  test_ufunclike.py
+│  │  │  │  │  │  │  test_utils.py
+│  │  │  │  │  │  │  test__datasource.py
+│  │  │  │  │  │  │  test__iotools.py
+│  │  │  │  │  │  │  test__version.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─data
+│  │  │  │  │  │  │      py2-objarr.npy
+│  │  │  │  │  │  │      py2-objarr.npz
+│  │  │  │  │  │  │      py3-objarr.npy
+│  │  │  │  │  │  │      py3-objarr.npz
+│  │  │  │  │  │  │      python3.npy
+│  │  │  │  │  │  │      win64python2.npy
+│  │  │  │  │  │  │      
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_arraypad.cpython-36.pyc
+│  │  │  │  │  │          test_arraysetops.cpython-36.pyc
+│  │  │  │  │  │          test_arrayterator.cpython-36.pyc
+│  │  │  │  │  │          test_financial.cpython-36.pyc
+│  │  │  │  │  │          test_format.cpython-36.pyc
+│  │  │  │  │  │          test_function_base.cpython-36.pyc
+│  │  │  │  │  │          test_histograms.cpython-36.pyc
+│  │  │  │  │  │          test_index_tricks.cpython-36.pyc
+│  │  │  │  │  │          test_io.cpython-36.pyc
+│  │  │  │  │  │          test_mixins.cpython-36.pyc
+│  │  │  │  │  │          test_nanfunctions.cpython-36.pyc
+│  │  │  │  │  │          test_packbits.cpython-36.pyc
+│  │  │  │  │  │          test_polynomial.cpython-36.pyc
+│  │  │  │  │  │          test_recfunctions.cpython-36.pyc
+│  │  │  │  │  │          test_regression.cpython-36.pyc
+│  │  │  │  │  │          test_shape_base.cpython-36.pyc
+│  │  │  │  │  │          test_stride_tricks.cpython-36.pyc
+│  │  │  │  │  │          test_twodim_base.cpython-36.pyc
+│  │  │  │  │  │          test_type_check.cpython-36.pyc
+│  │  │  │  │  │          test_ufunclike.cpython-36.pyc
+│  │  │  │  │  │          test_utils.cpython-36.pyc
+│  │  │  │  │  │          test__datasource.cpython-36.pyc
+│  │  │  │  │  │          test__iotools.cpython-36.pyc
+│  │  │  │  │  │          test__version.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          arraypad.cpython-36.pyc
+│  │  │  │  │          arraysetops.cpython-36.pyc
+│  │  │  │  │          arrayterator.cpython-36.pyc
+│  │  │  │  │          financial.cpython-36.pyc
+│  │  │  │  │          format.cpython-36.pyc
+│  │  │  │  │          function_base.cpython-36.pyc
+│  │  │  │  │          histograms.cpython-36.pyc
+│  │  │  │  │          index_tricks.cpython-36.pyc
+│  │  │  │  │          mixins.cpython-36.pyc
+│  │  │  │  │          nanfunctions.cpython-36.pyc
+│  │  │  │  │          npyio.cpython-36.pyc
+│  │  │  │  │          polynomial.cpython-36.pyc
+│  │  │  │  │          recfunctions.cpython-36.pyc
+│  │  │  │  │          scimath.cpython-36.pyc
+│  │  │  │  │          setup.cpython-36.pyc
+│  │  │  │  │          shape_base.cpython-36.pyc
+│  │  │  │  │          stride_tricks.cpython-36.pyc
+│  │  │  │  │          twodim_base.cpython-36.pyc
+│  │  │  │  │          type_check.cpython-36.pyc
+│  │  │  │  │          ufunclike.cpython-36.pyc
+│  │  │  │  │          user_array.cpython-36.pyc
+│  │  │  │  │          utils.cpython-36.pyc
+│  │  │  │  │          _datasource.cpython-36.pyc
+│  │  │  │  │          _iotools.cpython-36.pyc
+│  │  │  │  │          _version.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─linalg
+│  │  │  │  │  │  lapack_lite.cp36-win_amd64.pyd
+│  │  │  │  │  │  linalg.py
+│  │  │  │  │  │  setup.py
+│  │  │  │  │  │  _umath_linalg.cp36-win_amd64.pyd
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─tests
+│  │  │  │  │  │  │  test_build.py
+│  │  │  │  │  │  │  test_deprecations.py
+│  │  │  │  │  │  │  test_linalg.py
+│  │  │  │  │  │  │  test_regression.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_build.cpython-36.pyc
+│  │  │  │  │  │          test_deprecations.cpython-36.pyc
+│  │  │  │  │  │          test_linalg.cpython-36.pyc
+│  │  │  │  │  │          test_regression.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          linalg.cpython-36.pyc
+│  │  │  │  │          setup.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─ma
+│  │  │  │  │  │  bench.py
+│  │  │  │  │  │  core.py
+│  │  │  │  │  │  extras.py
+│  │  │  │  │  │  mrecords.py
+│  │  │  │  │  │  setup.py
+│  │  │  │  │  │  testutils.py
+│  │  │  │  │  │  timer_comparison.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─tests
+│  │  │  │  │  │  │  test_core.py
+│  │  │  │  │  │  │  test_deprecations.py
+│  │  │  │  │  │  │  test_extras.py
+│  │  │  │  │  │  │  test_mrecords.py
+│  │  │  │  │  │  │  test_old_ma.py
+│  │  │  │  │  │  │  test_regression.py
+│  │  │  │  │  │  │  test_subclassing.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_core.cpython-36.pyc
+│  │  │  │  │  │          test_deprecations.cpython-36.pyc
+│  │  │  │  │  │          test_extras.cpython-36.pyc
+│  │  │  │  │  │          test_mrecords.cpython-36.pyc
+│  │  │  │  │  │          test_old_ma.cpython-36.pyc
+│  │  │  │  │  │          test_regression.cpython-36.pyc
+│  │  │  │  │  │          test_subclassing.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          bench.cpython-36.pyc
+│  │  │  │  │          core.cpython-36.pyc
+│  │  │  │  │          extras.cpython-36.pyc
+│  │  │  │  │          mrecords.cpython-36.pyc
+│  │  │  │  │          setup.cpython-36.pyc
+│  │  │  │  │          testutils.cpython-36.pyc
+│  │  │  │  │          timer_comparison.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─matrixlib
+│  │  │  │  │  │  defmatrix.py
+│  │  │  │  │  │  setup.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─tests
+│  │  │  │  │  │  │  test_defmatrix.py
+│  │  │  │  │  │  │  test_interaction.py
+│  │  │  │  │  │  │  test_masked_matrix.py
+│  │  │  │  │  │  │  test_matrix_linalg.py
+│  │  │  │  │  │  │  test_multiarray.py
+│  │  │  │  │  │  │  test_numeric.py
+│  │  │  │  │  │  │  test_regression.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_defmatrix.cpython-36.pyc
+│  │  │  │  │  │          test_interaction.cpython-36.pyc
+│  │  │  │  │  │          test_masked_matrix.cpython-36.pyc
+│  │  │  │  │  │          test_matrix_linalg.cpython-36.pyc
+│  │  │  │  │  │          test_multiarray.cpython-36.pyc
+│  │  │  │  │  │          test_numeric.cpython-36.pyc
+│  │  │  │  │  │          test_regression.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          defmatrix.cpython-36.pyc
+│  │  │  │  │          setup.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─polynomial
+│  │  │  │  │  │  chebyshev.py
+│  │  │  │  │  │  hermite.py
+│  │  │  │  │  │  hermite_e.py
+│  │  │  │  │  │  laguerre.py
+│  │  │  │  │  │  legendre.py
+│  │  │  │  │  │  polynomial.py
+│  │  │  │  │  │  polyutils.py
+│  │  │  │  │  │  setup.py
+│  │  │  │  │  │  _polybase.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─tests
+│  │  │  │  │  │  │  test_chebyshev.py
+│  │  │  │  │  │  │  test_classes.py
+│  │  │  │  │  │  │  test_hermite.py
+│  │  │  │  │  │  │  test_hermite_e.py
+│  │  │  │  │  │  │  test_laguerre.py
+│  │  │  │  │  │  │  test_legendre.py
+│  │  │  │  │  │  │  test_polynomial.py
+│  │  │  │  │  │  │  test_polyutils.py
+│  │  │  │  │  │  │  test_printing.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_chebyshev.cpython-36.pyc
+│  │  │  │  │  │          test_classes.cpython-36.pyc
+│  │  │  │  │  │          test_hermite.cpython-36.pyc
+│  │  │  │  │  │          test_hermite_e.cpython-36.pyc
+│  │  │  │  │  │          test_laguerre.cpython-36.pyc
+│  │  │  │  │  │          test_legendre.cpython-36.pyc
+│  │  │  │  │  │          test_polynomial.cpython-36.pyc
+│  │  │  │  │  │          test_polyutils.cpython-36.pyc
+│  │  │  │  │  │          test_printing.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          chebyshev.cpython-36.pyc
+│  │  │  │  │          hermite.cpython-36.pyc
+│  │  │  │  │          hermite_e.cpython-36.pyc
+│  │  │  │  │          laguerre.cpython-36.pyc
+│  │  │  │  │          legendre.cpython-36.pyc
+│  │  │  │  │          polynomial.cpython-36.pyc
+│  │  │  │  │          polyutils.cpython-36.pyc
+│  │  │  │  │          setup.cpython-36.pyc
+│  │  │  │  │          _polybase.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─random
+│  │  │  │  │  │  mtrand.cp36-win_amd64.pyd
+│  │  │  │  │  │  setup.py
+│  │  │  │  │  │  _bit_generator.cp36-win_amd64.pyd
+│  │  │  │  │  │  _bit_generator.pxd
+│  │  │  │  │  │  _bounded_integers.cp36-win_amd64.pyd
+│  │  │  │  │  │  _bounded_integers.pxd
+│  │  │  │  │  │  _common.cp36-win_amd64.pyd
+│  │  │  │  │  │  _common.pxd
+│  │  │  │  │  │  _generator.cp36-win_amd64.pyd
+│  │  │  │  │  │  _mt19937.cp36-win_amd64.pyd
+│  │  │  │  │  │  _pcg64.cp36-win_amd64.pyd
+│  │  │  │  │  │  _philox.cp36-win_amd64.pyd
+│  │  │  │  │  │  _pickle.py
+│  │  │  │  │  │  _sfc64.cp36-win_amd64.pyd
+│  │  │  │  │  │  __init__.pxd
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─tests
+│  │  │  │  │  │  │  test_direct.py
+│  │  │  │  │  │  │  test_extending.py
+│  │  │  │  │  │  │  test_generator_mt19937.py
+│  │  │  │  │  │  │  test_generator_mt19937_regressions.py
+│  │  │  │  │  │  │  test_random.py
+│  │  │  │  │  │  │  test_randomstate.py
+│  │  │  │  │  │  │  test_randomstate_regression.py
+│  │  │  │  │  │  │  test_regression.py
+│  │  │  │  │  │  │  test_seed_sequence.py
+│  │  │  │  │  │  │  test_smoke.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─data
+│  │  │  │  │  │  │  │  mt19937-testset-1.csv
+│  │  │  │  │  │  │  │  mt19937-testset-2.csv
+│  │  │  │  │  │  │  │  pcg64-testset-1.csv
+│  │  │  │  │  │  │  │  pcg64-testset-2.csv
+│  │  │  │  │  │  │  │  philox-testset-1.csv
+│  │  │  │  │  │  │  │  philox-testset-2.csv
+│  │  │  │  │  │  │  │  sfc64-testset-1.csv
+│  │  │  │  │  │  │  │  sfc64-testset-2.csv
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_direct.cpython-36.pyc
+│  │  │  │  │  │          test_extending.cpython-36.pyc
+│  │  │  │  │  │          test_generator_mt19937.cpython-36.pyc
+│  │  │  │  │  │          test_generator_mt19937_regressions.cpython-36.pyc
+│  │  │  │  │  │          test_random.cpython-36.pyc
+│  │  │  │  │  │          test_randomstate.cpython-36.pyc
+│  │  │  │  │  │          test_randomstate_regression.cpython-36.pyc
+│  │  │  │  │  │          test_regression.cpython-36.pyc
+│  │  │  │  │  │          test_seed_sequence.cpython-36.pyc
+│  │  │  │  │  │          test_smoke.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─_examples
+│  │  │  │  │  │  ├─cffi
+│  │  │  │  │  │  │  │  extending.py
+│  │  │  │  │  │  │  │  parse.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          extending.cpython-36.pyc
+│  │  │  │  │  │  │          parse.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─cython
+│  │  │  │  │  │  │  │  extending.pyx
+│  │  │  │  │  │  │  │  extending_distributions.pyx
+│  │  │  │  │  │  │  │  setup.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          setup.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  └─numba
+│  │  │  │  │  │      │  extending.py
+│  │  │  │  │  │      │  extending_distributions.py
+│  │  │  │  │  │      │  
+│  │  │  │  │  │      └─__pycache__
+│  │  │  │  │  │              extending.cpython-36.pyc
+│  │  │  │  │  │              extending_distributions.cpython-36.pyc
+│  │  │  │  │  │              
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          setup.cpython-36.pyc
+│  │  │  │  │          _pickle.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─testing
+│  │  │  │  │  │  print_coercion_tables.py
+│  │  │  │  │  │  setup.py
+│  │  │  │  │  │  utils.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─tests
+│  │  │  │  │  │  │  test_decorators.py
+│  │  │  │  │  │  │  test_doctesting.py
+│  │  │  │  │  │  │  test_utils.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_decorators.cpython-36.pyc
+│  │  │  │  │  │          test_doctesting.cpython-36.pyc
+│  │  │  │  │  │          test_utils.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─_private
+│  │  │  │  │  │  │  decorators.py
+│  │  │  │  │  │  │  noseclasses.py
+│  │  │  │  │  │  │  nosetester.py
+│  │  │  │  │  │  │  parameterized.py
+│  │  │  │  │  │  │  utils.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          decorators.cpython-36.pyc
+│  │  │  │  │  │          noseclasses.cpython-36.pyc
+│  │  │  │  │  │          nosetester.cpython-36.pyc
+│  │  │  │  │  │          parameterized.cpython-36.pyc
+│  │  │  │  │  │          utils.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          print_coercion_tables.cpython-36.pyc
+│  │  │  │  │          setup.cpython-36.pyc
+│  │  │  │  │          utils.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─tests
+│  │  │  │  │  │  test_ctypeslib.py
+│  │  │  │  │  │  test_matlib.py
+│  │  │  │  │  │  test_numpy_version.py
+│  │  │  │  │  │  test_public_api.py
+│  │  │  │  │  │  test_reloading.py
+│  │  │  │  │  │  test_scripts.py
+│  │  │  │  │  │  test_warnings.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          test_ctypeslib.cpython-36.pyc
+│  │  │  │  │          test_matlib.cpython-36.pyc
+│  │  │  │  │          test_numpy_version.cpython-36.pyc
+│  │  │  │  │          test_public_api.cpython-36.pyc
+│  │  │  │  │          test_reloading.cpython-36.pyc
+│  │  │  │  │          test_scripts.cpython-36.pyc
+│  │  │  │  │          test_warnings.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  └─__pycache__
+│  │  │  │          conftest.cpython-36.pyc
+│  │  │  │          ctypeslib.cpython-36.pyc
+│  │  │  │          dual.cpython-36.pyc
+│  │  │  │          matlib.cpython-36.pyc
+│  │  │  │          setup.cpython-36.pyc
+│  │  │  │          version.cpython-36.pyc
+│  │  │  │          _distributor_init.cpython-36.pyc
+│  │  │  │          _globals.cpython-36.pyc
+│  │  │  │          _pytesttester.cpython-36.pyc
+│  │  │  │          __config__.cpython-36.pyc
+│  │  │  │          __init__.cpython-36.pyc
+│  │  │  │          
+│  │  │  ├─numpy-1.18.3.dist-info
+│  │  │  │      entry_points.txt
+│  │  │  │      INSTALLER
+│  │  │  │      LICENSE.txt
+│  │  │  │      LICENSES_bundled.txt
+│  │  │  │      METADATA
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─pandas
+│  │  │  │  │  conftest.py
+│  │  │  │  │  testing.py
+│  │  │  │  │  _testing.py
+│  │  │  │  │  _typing.py
+│  │  │  │  │  _version.py
+│  │  │  │  │  __init__.py
+│  │  │  │  │  
+│  │  │  │  ├─api
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─extensions
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─indexers
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─types
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─arrays
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─compat
+│  │  │  │  │  │  chainmap.py
+│  │  │  │  │  │  pickle_compat.py
+│  │  │  │  │  │  _optional.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─numpy
+│  │  │  │  │  │  │  function.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          function.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          chainmap.cpython-36.pyc
+│  │  │  │  │          pickle_compat.cpython-36.pyc
+│  │  │  │  │          _optional.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─core
+│  │  │  │  │  │  accessor.py
+│  │  │  │  │  │  algorithms.py
+│  │  │  │  │  │  api.py
+│  │  │  │  │  │  apply.py
+│  │  │  │  │  │  base.py
+│  │  │  │  │  │  common.py
+│  │  │  │  │  │  config_init.py
+│  │  │  │  │  │  construction.py
+│  │  │  │  │  │  frame.py
+│  │  │  │  │  │  generic.py
+│  │  │  │  │  │  index.py
+│  │  │  │  │  │  indexers.py
+│  │  │  │  │  │  indexing.py
+│  │  │  │  │  │  missing.py
+│  │  │  │  │  │  nanops.py
+│  │  │  │  │  │  resample.py
+│  │  │  │  │  │  series.py
+│  │  │  │  │  │  sorting.py
+│  │  │  │  │  │  strings.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─arrays
+│  │  │  │  │  │  │  base.py
+│  │  │  │  │  │  │  boolean.py
+│  │  │  │  │  │  │  categorical.py
+│  │  │  │  │  │  │  datetimelike.py
+│  │  │  │  │  │  │  datetimes.py
+│  │  │  │  │  │  │  integer.py
+│  │  │  │  │  │  │  interval.py
+│  │  │  │  │  │  │  masked.py
+│  │  │  │  │  │  │  numpy_.py
+│  │  │  │  │  │  │  period.py
+│  │  │  │  │  │  │  string_.py
+│  │  │  │  │  │  │  timedeltas.py
+│  │  │  │  │  │  │  _arrow_utils.py
+│  │  │  │  │  │  │  _ranges.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─sparse
+│  │  │  │  │  │  │  │  accessor.py
+│  │  │  │  │  │  │  │  array.py
+│  │  │  │  │  │  │  │  dtype.py
+│  │  │  │  │  │  │  │  scipy_sparse.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          accessor.cpython-36.pyc
+│  │  │  │  │  │  │          array.cpython-36.pyc
+│  │  │  │  │  │  │          dtype.cpython-36.pyc
+│  │  │  │  │  │  │          scipy_sparse.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          base.cpython-36.pyc
+│  │  │  │  │  │          boolean.cpython-36.pyc
+│  │  │  │  │  │          categorical.cpython-36.pyc
+│  │  │  │  │  │          datetimelike.cpython-36.pyc
+│  │  │  │  │  │          datetimes.cpython-36.pyc
+│  │  │  │  │  │          integer.cpython-36.pyc
+│  │  │  │  │  │          interval.cpython-36.pyc
+│  │  │  │  │  │          masked.cpython-36.pyc
+│  │  │  │  │  │          numpy_.cpython-36.pyc
+│  │  │  │  │  │          period.cpython-36.pyc
+│  │  │  │  │  │          string_.cpython-36.pyc
+│  │  │  │  │  │          timedeltas.cpython-36.pyc
+│  │  │  │  │  │          _arrow_utils.cpython-36.pyc
+│  │  │  │  │  │          _ranges.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─computation
+│  │  │  │  │  │  │  align.py
+│  │  │  │  │  │  │  api.py
+│  │  │  │  │  │  │  check.py
+│  │  │  │  │  │  │  common.py
+│  │  │  │  │  │  │  engines.py
+│  │  │  │  │  │  │  eval.py
+│  │  │  │  │  │  │  expr.py
+│  │  │  │  │  │  │  expressions.py
+│  │  │  │  │  │  │  ops.py
+│  │  │  │  │  │  │  parsing.py
+│  │  │  │  │  │  │  pytables.py
+│  │  │  │  │  │  │  scope.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          align.cpython-36.pyc
+│  │  │  │  │  │          api.cpython-36.pyc
+│  │  │  │  │  │          check.cpython-36.pyc
+│  │  │  │  │  │          common.cpython-36.pyc
+│  │  │  │  │  │          engines.cpython-36.pyc
+│  │  │  │  │  │          eval.cpython-36.pyc
+│  │  │  │  │  │          expr.cpython-36.pyc
+│  │  │  │  │  │          expressions.cpython-36.pyc
+│  │  │  │  │  │          ops.cpython-36.pyc
+│  │  │  │  │  │          parsing.cpython-36.pyc
+│  │  │  │  │  │          pytables.cpython-36.pyc
+│  │  │  │  │  │          scope.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─dtypes
+│  │  │  │  │  │  │  api.py
+│  │  │  │  │  │  │  base.py
+│  │  │  │  │  │  │  cast.py
+│  │  │  │  │  │  │  common.py
+│  │  │  │  │  │  │  concat.py
+│  │  │  │  │  │  │  dtypes.py
+│  │  │  │  │  │  │  generic.py
+│  │  │  │  │  │  │  inference.py
+│  │  │  │  │  │  │  missing.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          api.cpython-36.pyc
+│  │  │  │  │  │          base.cpython-36.pyc
+│  │  │  │  │  │          cast.cpython-36.pyc
+│  │  │  │  │  │          common.cpython-36.pyc
+│  │  │  │  │  │          concat.cpython-36.pyc
+│  │  │  │  │  │          dtypes.cpython-36.pyc
+│  │  │  │  │  │          generic.cpython-36.pyc
+│  │  │  │  │  │          inference.cpython-36.pyc
+│  │  │  │  │  │          missing.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─groupby
+│  │  │  │  │  │  │  base.py
+│  │  │  │  │  │  │  categorical.py
+│  │  │  │  │  │  │  generic.py
+│  │  │  │  │  │  │  groupby.py
+│  │  │  │  │  │  │  grouper.py
+│  │  │  │  │  │  │  ops.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          base.cpython-36.pyc
+│  │  │  │  │  │          categorical.cpython-36.pyc
+│  │  │  │  │  │          generic.cpython-36.pyc
+│  │  │  │  │  │          groupby.cpython-36.pyc
+│  │  │  │  │  │          grouper.cpython-36.pyc
+│  │  │  │  │  │          ops.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─indexes
+│  │  │  │  │  │  │  accessors.py
+│  │  │  │  │  │  │  api.py
+│  │  │  │  │  │  │  base.py
+│  │  │  │  │  │  │  category.py
+│  │  │  │  │  │  │  datetimelike.py
+│  │  │  │  │  │  │  datetimes.py
+│  │  │  │  │  │  │  extension.py
+│  │  │  │  │  │  │  frozen.py
+│  │  │  │  │  │  │  interval.py
+│  │  │  │  │  │  │  multi.py
+│  │  │  │  │  │  │  numeric.py
+│  │  │  │  │  │  │  period.py
+│  │  │  │  │  │  │  range.py
+│  │  │  │  │  │  │  timedeltas.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          accessors.cpython-36.pyc
+│  │  │  │  │  │          api.cpython-36.pyc
+│  │  │  │  │  │          base.cpython-36.pyc
+│  │  │  │  │  │          category.cpython-36.pyc
+│  │  │  │  │  │          datetimelike.cpython-36.pyc
+│  │  │  │  │  │          datetimes.cpython-36.pyc
+│  │  │  │  │  │          extension.cpython-36.pyc
+│  │  │  │  │  │          frozen.cpython-36.pyc
+│  │  │  │  │  │          interval.cpython-36.pyc
+│  │  │  │  │  │          multi.cpython-36.pyc
+│  │  │  │  │  │          numeric.cpython-36.pyc
+│  │  │  │  │  │          period.cpython-36.pyc
+│  │  │  │  │  │          range.cpython-36.pyc
+│  │  │  │  │  │          timedeltas.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─internals
+│  │  │  │  │  │  │  blocks.py
+│  │  │  │  │  │  │  concat.py
+│  │  │  │  │  │  │  construction.py
+│  │  │  │  │  │  │  managers.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          blocks.cpython-36.pyc
+│  │  │  │  │  │          concat.cpython-36.pyc
+│  │  │  │  │  │          construction.cpython-36.pyc
+│  │  │  │  │  │          managers.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─ops
+│  │  │  │  │  │  │  array_ops.py
+│  │  │  │  │  │  │  common.py
+│  │  │  │  │  │  │  dispatch.py
+│  │  │  │  │  │  │  docstrings.py
+│  │  │  │  │  │  │  invalid.py
+│  │  │  │  │  │  │  mask_ops.py
+│  │  │  │  │  │  │  methods.py
+│  │  │  │  │  │  │  missing.py
+│  │  │  │  │  │  │  roperator.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          array_ops.cpython-36.pyc
+│  │  │  │  │  │          common.cpython-36.pyc
+│  │  │  │  │  │          dispatch.cpython-36.pyc
+│  │  │  │  │  │          docstrings.cpython-36.pyc
+│  │  │  │  │  │          invalid.cpython-36.pyc
+│  │  │  │  │  │          mask_ops.cpython-36.pyc
+│  │  │  │  │  │          methods.cpython-36.pyc
+│  │  │  │  │  │          missing.cpython-36.pyc
+│  │  │  │  │  │          roperator.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─reshape
+│  │  │  │  │  │  │  api.py
+│  │  │  │  │  │  │  concat.py
+│  │  │  │  │  │  │  melt.py
+│  │  │  │  │  │  │  merge.py
+│  │  │  │  │  │  │  pivot.py
+│  │  │  │  │  │  │  reshape.py
+│  │  │  │  │  │  │  tile.py
+│  │  │  │  │  │  │  util.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          api.cpython-36.pyc
+│  │  │  │  │  │          concat.cpython-36.pyc
+│  │  │  │  │  │          melt.cpython-36.pyc
+│  │  │  │  │  │          merge.cpython-36.pyc
+│  │  │  │  │  │          pivot.cpython-36.pyc
+│  │  │  │  │  │          reshape.cpython-36.pyc
+│  │  │  │  │  │          tile.cpython-36.pyc
+│  │  │  │  │  │          util.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─sparse
+│  │  │  │  │  │  │  api.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          api.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─tools
+│  │  │  │  │  │  │  datetimes.py
+│  │  │  │  │  │  │  numeric.py
+│  │  │  │  │  │  │  timedeltas.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          datetimes.cpython-36.pyc
+│  │  │  │  │  │          numeric.cpython-36.pyc
+│  │  │  │  │  │          timedeltas.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─util
+│  │  │  │  │  │  │  hashing.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          hashing.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─window
+│  │  │  │  │  │  │  common.py
+│  │  │  │  │  │  │  ewm.py
+│  │  │  │  │  │  │  expanding.py
+│  │  │  │  │  │  │  indexers.py
+│  │  │  │  │  │  │  numba_.py
+│  │  │  │  │  │  │  rolling.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          common.cpython-36.pyc
+│  │  │  │  │  │          ewm.cpython-36.pyc
+│  │  │  │  │  │          expanding.cpython-36.pyc
+│  │  │  │  │  │          indexers.cpython-36.pyc
+│  │  │  │  │  │          numba_.cpython-36.pyc
+│  │  │  │  │  │          rolling.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          accessor.cpython-36.pyc
+│  │  │  │  │          algorithms.cpython-36.pyc
+│  │  │  │  │          api.cpython-36.pyc
+│  │  │  │  │          apply.cpython-36.pyc
+│  │  │  │  │          base.cpython-36.pyc
+│  │  │  │  │          common.cpython-36.pyc
+│  │  │  │  │          config_init.cpython-36.pyc
+│  │  │  │  │          construction.cpython-36.pyc
+│  │  │  │  │          frame.cpython-36.pyc
+│  │  │  │  │          generic.cpython-36.pyc
+│  │  │  │  │          index.cpython-36.pyc
+│  │  │  │  │          indexers.cpython-36.pyc
+│  │  │  │  │          indexing.cpython-36.pyc
+│  │  │  │  │          missing.cpython-36.pyc
+│  │  │  │  │          nanops.cpython-36.pyc
+│  │  │  │  │          resample.cpython-36.pyc
+│  │  │  │  │          series.cpython-36.pyc
+│  │  │  │  │          sorting.cpython-36.pyc
+│  │  │  │  │          strings.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─errors
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─io
+│  │  │  │  │  │  api.py
+│  │  │  │  │  │  clipboards.py
+│  │  │  │  │  │  common.py
+│  │  │  │  │  │  date_converters.py
+│  │  │  │  │  │  feather_format.py
+│  │  │  │  │  │  gbq.py
+│  │  │  │  │  │  gcs.py
+│  │  │  │  │  │  html.py
+│  │  │  │  │  │  orc.py
+│  │  │  │  │  │  parquet.py
+│  │  │  │  │  │  parsers.py
+│  │  │  │  │  │  pickle.py
+│  │  │  │  │  │  pytables.py
+│  │  │  │  │  │  s3.py
+│  │  │  │  │  │  spss.py
+│  │  │  │  │  │  sql.py
+│  │  │  │  │  │  stata.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─clipboard
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─excel
+│  │  │  │  │  │  │  _base.py
+│  │  │  │  │  │  │  _odfreader.py
+│  │  │  │  │  │  │  _openpyxl.py
+│  │  │  │  │  │  │  _pyxlsb.py
+│  │  │  │  │  │  │  _util.py
+│  │  │  │  │  │  │  _xlrd.py
+│  │  │  │  │  │  │  _xlsxwriter.py
+│  │  │  │  │  │  │  _xlwt.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          _base.cpython-36.pyc
+│  │  │  │  │  │          _odfreader.cpython-36.pyc
+│  │  │  │  │  │          _openpyxl.cpython-36.pyc
+│  │  │  │  │  │          _pyxlsb.cpython-36.pyc
+│  │  │  │  │  │          _util.cpython-36.pyc
+│  │  │  │  │  │          _xlrd.cpython-36.pyc
+│  │  │  │  │  │          _xlsxwriter.cpython-36.pyc
+│  │  │  │  │  │          _xlwt.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─formats
+│  │  │  │  │  │  │  console.py
+│  │  │  │  │  │  │  css.py
+│  │  │  │  │  │  │  csvs.py
+│  │  │  │  │  │  │  excel.py
+│  │  │  │  │  │  │  format.py
+│  │  │  │  │  │  │  html.py
+│  │  │  │  │  │  │  latex.py
+│  │  │  │  │  │  │  printing.py
+│  │  │  │  │  │  │  style.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─templates
+│  │  │  │  │  │  │      html.tpl
+│  │  │  │  │  │  │      
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          console.cpython-36.pyc
+│  │  │  │  │  │          css.cpython-36.pyc
+│  │  │  │  │  │          csvs.cpython-36.pyc
+│  │  │  │  │  │          excel.cpython-36.pyc
+│  │  │  │  │  │          format.cpython-36.pyc
+│  │  │  │  │  │          html.cpython-36.pyc
+│  │  │  │  │  │          latex.cpython-36.pyc
+│  │  │  │  │  │          printing.cpython-36.pyc
+│  │  │  │  │  │          style.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─json
+│  │  │  │  │  │  │  _json.py
+│  │  │  │  │  │  │  _normalize.py
+│  │  │  │  │  │  │  _table_schema.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          _json.cpython-36.pyc
+│  │  │  │  │  │          _normalize.cpython-36.pyc
+│  │  │  │  │  │          _table_schema.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─sas
+│  │  │  │  │  │  │  sas7bdat.py
+│  │  │  │  │  │  │  sasreader.py
+│  │  │  │  │  │  │  sas_constants.py
+│  │  │  │  │  │  │  sas_xport.py
+│  │  │  │  │  │  │  _sas.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          sas7bdat.cpython-36.pyc
+│  │  │  │  │  │          sasreader.cpython-36.pyc
+│  │  │  │  │  │          sas_constants.cpython-36.pyc
+│  │  │  │  │  │          sas_xport.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          api.cpython-36.pyc
+│  │  │  │  │          clipboards.cpython-36.pyc
+│  │  │  │  │          common.cpython-36.pyc
+│  │  │  │  │          date_converters.cpython-36.pyc
+│  │  │  │  │          feather_format.cpython-36.pyc
+│  │  │  │  │          gbq.cpython-36.pyc
+│  │  │  │  │          gcs.cpython-36.pyc
+│  │  │  │  │          html.cpython-36.pyc
+│  │  │  │  │          orc.cpython-36.pyc
+│  │  │  │  │          parquet.cpython-36.pyc
+│  │  │  │  │          parsers.cpython-36.pyc
+│  │  │  │  │          pickle.cpython-36.pyc
+│  │  │  │  │          pytables.cpython-36.pyc
+│  │  │  │  │          s3.cpython-36.pyc
+│  │  │  │  │          spss.cpython-36.pyc
+│  │  │  │  │          sql.cpython-36.pyc
+│  │  │  │  │          stata.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─plotting
+│  │  │  │  │  │  _core.py
+│  │  │  │  │  │  _misc.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─_matplotlib
+│  │  │  │  │  │  │  boxplot.py
+│  │  │  │  │  │  │  compat.py
+│  │  │  │  │  │  │  converter.py
+│  │  │  │  │  │  │  core.py
+│  │  │  │  │  │  │  hist.py
+│  │  │  │  │  │  │  misc.py
+│  │  │  │  │  │  │  style.py
+│  │  │  │  │  │  │  timeseries.py
+│  │  │  │  │  │  │  tools.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          boxplot.cpython-36.pyc
+│  │  │  │  │  │          compat.cpython-36.pyc
+│  │  │  │  │  │          converter.cpython-36.pyc
+│  │  │  │  │  │          core.cpython-36.pyc
+│  │  │  │  │  │          hist.cpython-36.pyc
+│  │  │  │  │  │          misc.cpython-36.pyc
+│  │  │  │  │  │          style.cpython-36.pyc
+│  │  │  │  │  │          timeseries.cpython-36.pyc
+│  │  │  │  │  │          tools.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          _core.cpython-36.pyc
+│  │  │  │  │          _misc.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─tests
+│  │  │  │  │  │  test_algos.py
+│  │  │  │  │  │  test_common.py
+│  │  │  │  │  │  test_compat.py
+│  │  │  │  │  │  test_downstream.py
+│  │  │  │  │  │  test_errors.py
+│  │  │  │  │  │  test_expressions.py
+│  │  │  │  │  │  test_join.py
+│  │  │  │  │  │  test_lib.py
+│  │  │  │  │  │  test_multilevel.py
+│  │  │  │  │  │  test_nanops.py
+│  │  │  │  │  │  test_optional_dependency.py
+│  │  │  │  │  │  test_register_accessor.py
+│  │  │  │  │  │  test_sorting.py
+│  │  │  │  │  │  test_strings.py
+│  │  │  │  │  │  test_take.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─api
+│  │  │  │  │  │  │  test_api.py
+│  │  │  │  │  │  │  test_types.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_api.cpython-36.pyc
+│  │  │  │  │  │          test_types.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─arithmetic
+│  │  │  │  │  │  │  common.py
+│  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  test_datetime64.py
+│  │  │  │  │  │  │  test_interval.py
+│  │  │  │  │  │  │  test_numeric.py
+│  │  │  │  │  │  │  test_object.py
+│  │  │  │  │  │  │  test_period.py
+│  │  │  │  │  │  │  test_timedelta64.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          common.cpython-36.pyc
+│  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │          test_datetime64.cpython-36.pyc
+│  │  │  │  │  │          test_interval.cpython-36.pyc
+│  │  │  │  │  │          test_numeric.cpython-36.pyc
+│  │  │  │  │  │          test_object.cpython-36.pyc
+│  │  │  │  │  │          test_period.cpython-36.pyc
+│  │  │  │  │  │          test_timedelta64.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─arrays
+│  │  │  │  │  │  │  test_array.py
+│  │  │  │  │  │  │  test_boolean.py
+│  │  │  │  │  │  │  test_datetimelike.py
+│  │  │  │  │  │  │  test_datetimes.py
+│  │  │  │  │  │  │  test_integer.py
+│  │  │  │  │  │  │  test_numpy.py
+│  │  │  │  │  │  │  test_period.py
+│  │  │  │  │  │  │  test_timedeltas.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─categorical
+│  │  │  │  │  │  │  │  common.py
+│  │  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  │  test_algos.py
+│  │  │  │  │  │  │  │  test_analytics.py
+│  │  │  │  │  │  │  │  test_api.py
+│  │  │  │  │  │  │  │  test_constructors.py
+│  │  │  │  │  │  │  │  test_dtypes.py
+│  │  │  │  │  │  │  │  test_indexing.py
+│  │  │  │  │  │  │  │  test_missing.py
+│  │  │  │  │  │  │  │  test_operators.py
+│  │  │  │  │  │  │  │  test_replace.py
+│  │  │  │  │  │  │  │  test_repr.py
+│  │  │  │  │  │  │  │  test_sorting.py
+│  │  │  │  │  │  │  │  test_subclass.py
+│  │  │  │  │  │  │  │  test_warnings.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          common.cpython-36.pyc
+│  │  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │  │          test_algos.cpython-36.pyc
+│  │  │  │  │  │  │          test_analytics.cpython-36.pyc
+│  │  │  │  │  │  │          test_api.cpython-36.pyc
+│  │  │  │  │  │  │          test_constructors.cpython-36.pyc
+│  │  │  │  │  │  │          test_dtypes.cpython-36.pyc
+│  │  │  │  │  │  │          test_indexing.cpython-36.pyc
+│  │  │  │  │  │  │          test_missing.cpython-36.pyc
+│  │  │  │  │  │  │          test_operators.cpython-36.pyc
+│  │  │  │  │  │  │          test_replace.cpython-36.pyc
+│  │  │  │  │  │  │          test_repr.cpython-36.pyc
+│  │  │  │  │  │  │          test_sorting.cpython-36.pyc
+│  │  │  │  │  │  │          test_subclass.cpython-36.pyc
+│  │  │  │  │  │  │          test_warnings.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─interval
+│  │  │  │  │  │  │  │  test_interval.py
+│  │  │  │  │  │  │  │  test_ops.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_interval.cpython-36.pyc
+│  │  │  │  │  │  │          test_ops.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─sparse
+│  │  │  │  │  │  │  │  test_accessor.py
+│  │  │  │  │  │  │  │  test_arithmetics.py
+│  │  │  │  │  │  │  │  test_array.py
+│  │  │  │  │  │  │  │  test_combine_concat.py
+│  │  │  │  │  │  │  │  test_dtype.py
+│  │  │  │  │  │  │  │  test_libsparse.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_accessor.cpython-36.pyc
+│  │  │  │  │  │  │          test_arithmetics.cpython-36.pyc
+│  │  │  │  │  │  │          test_array.cpython-36.pyc
+│  │  │  │  │  │  │          test_combine_concat.cpython-36.pyc
+│  │  │  │  │  │  │          test_dtype.cpython-36.pyc
+│  │  │  │  │  │  │          test_libsparse.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─string_
+│  │  │  │  │  │  │  │  test_string.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_string.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_array.cpython-36.pyc
+│  │  │  │  │  │          test_boolean.cpython-36.pyc
+│  │  │  │  │  │          test_datetimelike.cpython-36.pyc
+│  │  │  │  │  │          test_datetimes.cpython-36.pyc
+│  │  │  │  │  │          test_integer.cpython-36.pyc
+│  │  │  │  │  │          test_numpy.cpython-36.pyc
+│  │  │  │  │  │          test_period.cpython-36.pyc
+│  │  │  │  │  │          test_timedeltas.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─base
+│  │  │  │  │  │  │  test_constructors.py
+│  │  │  │  │  │  │  test_conversion.py
+│  │  │  │  │  │  │  test_ops.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_constructors.cpython-36.pyc
+│  │  │  │  │  │          test_conversion.cpython-36.pyc
+│  │  │  │  │  │          test_ops.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─computation
+│  │  │  │  │  │  │  test_compat.py
+│  │  │  │  │  │  │  test_eval.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_compat.cpython-36.pyc
+│  │  │  │  │  │          test_eval.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─config
+│  │  │  │  │  │  │  test_config.py
+│  │  │  │  │  │  │  test_localization.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_config.cpython-36.pyc
+│  │  │  │  │  │          test_localization.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─dtypes
+│  │  │  │  │  │  │  test_common.py
+│  │  │  │  │  │  │  test_concat.py
+│  │  │  │  │  │  │  test_dtypes.py
+│  │  │  │  │  │  │  test_generic.py
+│  │  │  │  │  │  │  test_inference.py
+│  │  │  │  │  │  │  test_missing.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─cast
+│  │  │  │  │  │  │  │  test_construct_from_scalar.py
+│  │  │  │  │  │  │  │  test_construct_ndarray.py
+│  │  │  │  │  │  │  │  test_construct_object_arr.py
+│  │  │  │  │  │  │  │  test_convert_objects.py
+│  │  │  │  │  │  │  │  test_downcast.py
+│  │  │  │  │  │  │  │  test_find_common_type.py
+│  │  │  │  │  │  │  │  test_infer_datetimelike.py
+│  │  │  │  │  │  │  │  test_infer_dtype.py
+│  │  │  │  │  │  │  │  test_promote.py
+│  │  │  │  │  │  │  │  test_upcast.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_construct_from_scalar.cpython-36.pyc
+│  │  │  │  │  │  │          test_construct_ndarray.cpython-36.pyc
+│  │  │  │  │  │  │          test_construct_object_arr.cpython-36.pyc
+│  │  │  │  │  │  │          test_convert_objects.cpython-36.pyc
+│  │  │  │  │  │  │          test_downcast.cpython-36.pyc
+│  │  │  │  │  │  │          test_find_common_type.cpython-36.pyc
+│  │  │  │  │  │  │          test_infer_datetimelike.cpython-36.pyc
+│  │  │  │  │  │  │          test_infer_dtype.cpython-36.pyc
+│  │  │  │  │  │  │          test_promote.cpython-36.pyc
+│  │  │  │  │  │  │          test_upcast.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_common.cpython-36.pyc
+│  │  │  │  │  │          test_concat.cpython-36.pyc
+│  │  │  │  │  │          test_dtypes.cpython-36.pyc
+│  │  │  │  │  │          test_generic.cpython-36.pyc
+│  │  │  │  │  │          test_inference.cpython-36.pyc
+│  │  │  │  │  │          test_missing.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─extension
+│  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  test_boolean.py
+│  │  │  │  │  │  │  test_categorical.py
+│  │  │  │  │  │  │  test_common.py
+│  │  │  │  │  │  │  test_datetime.py
+│  │  │  │  │  │  │  test_external_block.py
+│  │  │  │  │  │  │  test_integer.py
+│  │  │  │  │  │  │  test_interval.py
+│  │  │  │  │  │  │  test_numpy.py
+│  │  │  │  │  │  │  test_period.py
+│  │  │  │  │  │  │  test_sparse.py
+│  │  │  │  │  │  │  test_string.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─arrow
+│  │  │  │  │  │  │  │  arrays.py
+│  │  │  │  │  │  │  │  test_bool.py
+│  │  │  │  │  │  │  │  test_string.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          arrays.cpython-36.pyc
+│  │  │  │  │  │  │          test_bool.cpython-36.pyc
+│  │  │  │  │  │  │          test_string.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─base
+│  │  │  │  │  │  │  │  base.py
+│  │  │  │  │  │  │  │  casting.py
+│  │  │  │  │  │  │  │  constructors.py
+│  │  │  │  │  │  │  │  dtype.py
+│  │  │  │  │  │  │  │  getitem.py
+│  │  │  │  │  │  │  │  groupby.py
+│  │  │  │  │  │  │  │  interface.py
+│  │  │  │  │  │  │  │  io.py
+│  │  │  │  │  │  │  │  methods.py
+│  │  │  │  │  │  │  │  missing.py
+│  │  │  │  │  │  │  │  ops.py
+│  │  │  │  │  │  │  │  printing.py
+│  │  │  │  │  │  │  │  reduce.py
+│  │  │  │  │  │  │  │  reshaping.py
+│  │  │  │  │  │  │  │  setitem.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          base.cpython-36.pyc
+│  │  │  │  │  │  │          casting.cpython-36.pyc
+│  │  │  │  │  │  │          constructors.cpython-36.pyc
+│  │  │  │  │  │  │          dtype.cpython-36.pyc
+│  │  │  │  │  │  │          getitem.cpython-36.pyc
+│  │  │  │  │  │  │          groupby.cpython-36.pyc
+│  │  │  │  │  │  │          interface.cpython-36.pyc
+│  │  │  │  │  │  │          io.cpython-36.pyc
+│  │  │  │  │  │  │          methods.cpython-36.pyc
+│  │  │  │  │  │  │          missing.cpython-36.pyc
+│  │  │  │  │  │  │          ops.cpython-36.pyc
+│  │  │  │  │  │  │          printing.cpython-36.pyc
+│  │  │  │  │  │  │          reduce.cpython-36.pyc
+│  │  │  │  │  │  │          reshaping.cpython-36.pyc
+│  │  │  │  │  │  │          setitem.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─decimal
+│  │  │  │  │  │  │  │  array.py
+│  │  │  │  │  │  │  │  test_decimal.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          array.cpython-36.pyc
+│  │  │  │  │  │  │          test_decimal.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─json
+│  │  │  │  │  │  │  │  array.py
+│  │  │  │  │  │  │  │  test_json.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          array.cpython-36.pyc
+│  │  │  │  │  │  │          test_json.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─list
+│  │  │  │  │  │  │  │  array.py
+│  │  │  │  │  │  │  │  test_list.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          array.cpython-36.pyc
+│  │  │  │  │  │  │          test_list.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │          test_boolean.cpython-36.pyc
+│  │  │  │  │  │          test_categorical.cpython-36.pyc
+│  │  │  │  │  │          test_common.cpython-36.pyc
+│  │  │  │  │  │          test_datetime.cpython-36.pyc
+│  │  │  │  │  │          test_external_block.cpython-36.pyc
+│  │  │  │  │  │          test_integer.cpython-36.pyc
+│  │  │  │  │  │          test_interval.cpython-36.pyc
+│  │  │  │  │  │          test_numpy.cpython-36.pyc
+│  │  │  │  │  │          test_period.cpython-36.pyc
+│  │  │  │  │  │          test_sparse.cpython-36.pyc
+│  │  │  │  │  │          test_string.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─frame
+│  │  │  │  │  │  │  common.py
+│  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  test_alter_axes.py
+│  │  │  │  │  │  │  test_analytics.py
+│  │  │  │  │  │  │  test_api.py
+│  │  │  │  │  │  │  test_apply.py
+│  │  │  │  │  │  │  test_arithmetic.py
+│  │  │  │  │  │  │  test_axis_select_reindex.py
+│  │  │  │  │  │  │  test_block_internals.py
+│  │  │  │  │  │  │  test_combine_concat.py
+│  │  │  │  │  │  │  test_constructors.py
+│  │  │  │  │  │  │  test_cumulative.py
+│  │  │  │  │  │  │  test_dtypes.py
+│  │  │  │  │  │  │  test_join.py
+│  │  │  │  │  │  │  test_missing.py
+│  │  │  │  │  │  │  test_mutate_columns.py
+│  │  │  │  │  │  │  test_nonunique_indexes.py
+│  │  │  │  │  │  │  test_operators.py
+│  │  │  │  │  │  │  test_period.py
+│  │  │  │  │  │  │  test_query_eval.py
+│  │  │  │  │  │  │  test_repr_info.py
+│  │  │  │  │  │  │  test_reshape.py
+│  │  │  │  │  │  │  test_sort_values_level_as_str.py
+│  │  │  │  │  │  │  test_subclass.py
+│  │  │  │  │  │  │  test_timeseries.py
+│  │  │  │  │  │  │  test_timezones.py
+│  │  │  │  │  │  │  test_to_csv.py
+│  │  │  │  │  │  │  test_validate.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─methods
+│  │  │  │  │  │  │  │  test_append.py
+│  │  │  │  │  │  │  │  test_asof.py
+│  │  │  │  │  │  │  │  test_clip.py
+│  │  │  │  │  │  │  │  test_count.py
+│  │  │  │  │  │  │  │  test_cov_corr.py
+│  │  │  │  │  │  │  │  test_describe.py
+│  │  │  │  │  │  │  │  test_diff.py
+│  │  │  │  │  │  │  │  test_drop_duplicates.py
+│  │  │  │  │  │  │  │  test_duplicated.py
+│  │  │  │  │  │  │  │  test_explode.py
+│  │  │  │  │  │  │  │  test_isin.py
+│  │  │  │  │  │  │  │  test_nlargest.py
+│  │  │  │  │  │  │  │  test_pct_change.py
+│  │  │  │  │  │  │  │  test_quantile.py
+│  │  │  │  │  │  │  │  test_rank.py
+│  │  │  │  │  │  │  │  test_replace.py
+│  │  │  │  │  │  │  │  test_round.py
+│  │  │  │  │  │  │  │  test_shift.py
+│  │  │  │  │  │  │  │  test_sort_index.py
+│  │  │  │  │  │  │  │  test_sort_values.py
+│  │  │  │  │  │  │  │  test_to_dict.py
+│  │  │  │  │  │  │  │  test_to_records.py
+│  │  │  │  │  │  │  │  test_transpose.py
+│  │  │  │  │  │  │  │  test_truncate.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_append.cpython-36.pyc
+│  │  │  │  │  │  │          test_asof.cpython-36.pyc
+│  │  │  │  │  │  │          test_clip.cpython-36.pyc
+│  │  │  │  │  │  │          test_count.cpython-36.pyc
+│  │  │  │  │  │  │          test_cov_corr.cpython-36.pyc
+│  │  │  │  │  │  │          test_describe.cpython-36.pyc
+│  │  │  │  │  │  │          test_diff.cpython-36.pyc
+│  │  │  │  │  │  │          test_drop_duplicates.cpython-36.pyc
+│  │  │  │  │  │  │          test_duplicated.cpython-36.pyc
+│  │  │  │  │  │  │          test_explode.cpython-36.pyc
+│  │  │  │  │  │  │          test_isin.cpython-36.pyc
+│  │  │  │  │  │  │          test_nlargest.cpython-36.pyc
+│  │  │  │  │  │  │          test_pct_change.cpython-36.pyc
+│  │  │  │  │  │  │          test_quantile.cpython-36.pyc
+│  │  │  │  │  │  │          test_rank.cpython-36.pyc
+│  │  │  │  │  │  │          test_replace.cpython-36.pyc
+│  │  │  │  │  │  │          test_round.cpython-36.pyc
+│  │  │  │  │  │  │          test_shift.cpython-36.pyc
+│  │  │  │  │  │  │          test_sort_index.cpython-36.pyc
+│  │  │  │  │  │  │          test_sort_values.cpython-36.pyc
+│  │  │  │  │  │  │          test_to_dict.cpython-36.pyc
+│  │  │  │  │  │  │          test_to_records.cpython-36.pyc
+│  │  │  │  │  │  │          test_transpose.cpython-36.pyc
+│  │  │  │  │  │  │          test_truncate.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          common.cpython-36.pyc
+│  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │          test_alter_axes.cpython-36.pyc
+│  │  │  │  │  │          test_analytics.cpython-36.pyc
+│  │  │  │  │  │          test_api.cpython-36.pyc
+│  │  │  │  │  │          test_apply.cpython-36.pyc
+│  │  │  │  │  │          test_arithmetic.cpython-36.pyc
+│  │  │  │  │  │          test_axis_select_reindex.cpython-36.pyc
+│  │  │  │  │  │          test_block_internals.cpython-36.pyc
+│  │  │  │  │  │          test_combine_concat.cpython-36.pyc
+│  │  │  │  │  │          test_constructors.cpython-36.pyc
+│  │  │  │  │  │          test_cumulative.cpython-36.pyc
+│  │  │  │  │  │          test_dtypes.cpython-36.pyc
+│  │  │  │  │  │          test_join.cpython-36.pyc
+│  │  │  │  │  │          test_missing.cpython-36.pyc
+│  │  │  │  │  │          test_mutate_columns.cpython-36.pyc
+│  │  │  │  │  │          test_nonunique_indexes.cpython-36.pyc
+│  │  │  │  │  │          test_operators.cpython-36.pyc
+│  │  │  │  │  │          test_period.cpython-36.pyc
+│  │  │  │  │  │          test_query_eval.cpython-36.pyc
+│  │  │  │  │  │          test_repr_info.cpython-36.pyc
+│  │  │  │  │  │          test_reshape.cpython-36.pyc
+│  │  │  │  │  │          test_sort_values_level_as_str.cpython-36.pyc
+│  │  │  │  │  │          test_subclass.cpython-36.pyc
+│  │  │  │  │  │          test_timeseries.cpython-36.pyc
+│  │  │  │  │  │          test_timezones.cpython-36.pyc
+│  │  │  │  │  │          test_to_csv.cpython-36.pyc
+│  │  │  │  │  │          test_validate.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─generic
+│  │  │  │  │  │  │  test_frame.py
+│  │  │  │  │  │  │  test_generic.py
+│  │  │  │  │  │  │  test_label_or_level_utils.py
+│  │  │  │  │  │  │  test_series.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_frame.cpython-36.pyc
+│  │  │  │  │  │          test_generic.cpython-36.pyc
+│  │  │  │  │  │          test_label_or_level_utils.cpython-36.pyc
+│  │  │  │  │  │          test_series.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─groupby
+│  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  test_apply.py
+│  │  │  │  │  │  │  test_bin_groupby.py
+│  │  │  │  │  │  │  test_categorical.py
+│  │  │  │  │  │  │  test_counting.py
+│  │  │  │  │  │  │  test_filters.py
+│  │  │  │  │  │  │  test_function.py
+│  │  │  │  │  │  │  test_groupby.py
+│  │  │  │  │  │  │  test_grouping.py
+│  │  │  │  │  │  │  test_index_as_string.py
+│  │  │  │  │  │  │  test_nth.py
+│  │  │  │  │  │  │  test_rank.py
+│  │  │  │  │  │  │  test_timegrouper.py
+│  │  │  │  │  │  │  test_transform.py
+│  │  │  │  │  │  │  test_value_counts.py
+│  │  │  │  │  │  │  test_whitelist.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─aggregate
+│  │  │  │  │  │  │  │  test_aggregate.py
+│  │  │  │  │  │  │  │  test_cython.py
+│  │  │  │  │  │  │  │  test_other.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_aggregate.cpython-36.pyc
+│  │  │  │  │  │  │          test_cython.cpython-36.pyc
+│  │  │  │  │  │  │          test_other.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │          test_apply.cpython-36.pyc
+│  │  │  │  │  │          test_bin_groupby.cpython-36.pyc
+│  │  │  │  │  │          test_categorical.cpython-36.pyc
+│  │  │  │  │  │          test_counting.cpython-36.pyc
+│  │  │  │  │  │          test_filters.cpython-36.pyc
+│  │  │  │  │  │          test_function.cpython-36.pyc
+│  │  │  │  │  │          test_groupby.cpython-36.pyc
+│  │  │  │  │  │          test_grouping.cpython-36.pyc
+│  │  │  │  │  │          test_index_as_string.cpython-36.pyc
+│  │  │  │  │  │          test_nth.cpython-36.pyc
+│  │  │  │  │  │          test_rank.cpython-36.pyc
+│  │  │  │  │  │          test_timegrouper.cpython-36.pyc
+│  │  │  │  │  │          test_transform.cpython-36.pyc
+│  │  │  │  │  │          test_value_counts.cpython-36.pyc
+│  │  │  │  │  │          test_whitelist.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─indexes
+│  │  │  │  │  │  │  common.py
+│  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  datetimelike.py
+│  │  │  │  │  │  │  test_base.py
+│  │  │  │  │  │  │  test_common.py
+│  │  │  │  │  │  │  test_frozen.py
+│  │  │  │  │  │  │  test_numeric.py
+│  │  │  │  │  │  │  test_numpy_compat.py
+│  │  │  │  │  │  │  test_setops.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─categorical
+│  │  │  │  │  │  │  │  test_category.py
+│  │  │  │  │  │  │  │  test_constructors.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_category.cpython-36.pyc
+│  │  │  │  │  │  │          test_constructors.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─datetimes
+│  │  │  │  │  │  │  │  test_astype.py
+│  │  │  │  │  │  │  │  test_constructors.py
+│  │  │  │  │  │  │  │  test_datetime.py
+│  │  │  │  │  │  │  │  test_datetimelike.py
+│  │  │  │  │  │  │  │  test_date_range.py
+│  │  │  │  │  │  │  │  test_formats.py
+│  │  │  │  │  │  │  │  test_indexing.py
+│  │  │  │  │  │  │  │  test_join.py
+│  │  │  │  │  │  │  │  test_misc.py
+│  │  │  │  │  │  │  │  test_missing.py
+│  │  │  │  │  │  │  │  test_ops.py
+│  │  │  │  │  │  │  │  test_partial_slicing.py
+│  │  │  │  │  │  │  │  test_scalar_compat.py
+│  │  │  │  │  │  │  │  test_setops.py
+│  │  │  │  │  │  │  │  test_shift.py
+│  │  │  │  │  │  │  │  test_timezones.py
+│  │  │  │  │  │  │  │  test_tools.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_astype.cpython-36.pyc
+│  │  │  │  │  │  │          test_constructors.cpython-36.pyc
+│  │  │  │  │  │  │          test_datetime.cpython-36.pyc
+│  │  │  │  │  │  │          test_datetimelike.cpython-36.pyc
+│  │  │  │  │  │  │          test_date_range.cpython-36.pyc
+│  │  │  │  │  │  │          test_formats.cpython-36.pyc
+│  │  │  │  │  │  │          test_indexing.cpython-36.pyc
+│  │  │  │  │  │  │          test_join.cpython-36.pyc
+│  │  │  │  │  │  │          test_misc.cpython-36.pyc
+│  │  │  │  │  │  │          test_missing.cpython-36.pyc
+│  │  │  │  │  │  │          test_ops.cpython-36.pyc
+│  │  │  │  │  │  │          test_partial_slicing.cpython-36.pyc
+│  │  │  │  │  │  │          test_scalar_compat.cpython-36.pyc
+│  │  │  │  │  │  │          test_setops.cpython-36.pyc
+│  │  │  │  │  │  │          test_shift.cpython-36.pyc
+│  │  │  │  │  │  │          test_timezones.cpython-36.pyc
+│  │  │  │  │  │  │          test_tools.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─interval
+│  │  │  │  │  │  │  │  test_astype.py
+│  │  │  │  │  │  │  │  test_base.py
+│  │  │  │  │  │  │  │  test_constructors.py
+│  │  │  │  │  │  │  │  test_formats.py
+│  │  │  │  │  │  │  │  test_indexing.py
+│  │  │  │  │  │  │  │  test_interval.py
+│  │  │  │  │  │  │  │  test_interval_range.py
+│  │  │  │  │  │  │  │  test_interval_tree.py
+│  │  │  │  │  │  │  │  test_setops.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_astype.cpython-36.pyc
+│  │  │  │  │  │  │          test_base.cpython-36.pyc
+│  │  │  │  │  │  │          test_constructors.cpython-36.pyc
+│  │  │  │  │  │  │          test_formats.cpython-36.pyc
+│  │  │  │  │  │  │          test_indexing.cpython-36.pyc
+│  │  │  │  │  │  │          test_interval.cpython-36.pyc
+│  │  │  │  │  │  │          test_interval_range.cpython-36.pyc
+│  │  │  │  │  │  │          test_interval_tree.cpython-36.pyc
+│  │  │  │  │  │  │          test_setops.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─multi
+│  │  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  │  test_analytics.py
+│  │  │  │  │  │  │  │  test_astype.py
+│  │  │  │  │  │  │  │  test_compat.py
+│  │  │  │  │  │  │  │  test_constructors.py
+│  │  │  │  │  │  │  │  test_contains.py
+│  │  │  │  │  │  │  │  test_conversion.py
+│  │  │  │  │  │  │  │  test_copy.py
+│  │  │  │  │  │  │  │  test_drop.py
+│  │  │  │  │  │  │  │  test_duplicates.py
+│  │  │  │  │  │  │  │  test_equivalence.py
+│  │  │  │  │  │  │  │  test_format.py
+│  │  │  │  │  │  │  │  test_get_set.py
+│  │  │  │  │  │  │  │  test_indexing.py
+│  │  │  │  │  │  │  │  test_integrity.py
+│  │  │  │  │  │  │  │  test_join.py
+│  │  │  │  │  │  │  │  test_missing.py
+│  │  │  │  │  │  │  │  test_monotonic.py
+│  │  │  │  │  │  │  │  test_names.py
+│  │  │  │  │  │  │  │  test_partial_indexing.py
+│  │  │  │  │  │  │  │  test_reindex.py
+│  │  │  │  │  │  │  │  test_reshape.py
+│  │  │  │  │  │  │  │  test_setops.py
+│  │  │  │  │  │  │  │  test_sorting.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │  │          test_analytics.cpython-36.pyc
+│  │  │  │  │  │  │          test_astype.cpython-36.pyc
+│  │  │  │  │  │  │          test_compat.cpython-36.pyc
+│  │  │  │  │  │  │          test_constructors.cpython-36.pyc
+│  │  │  │  │  │  │          test_contains.cpython-36.pyc
+│  │  │  │  │  │  │          test_conversion.cpython-36.pyc
+│  │  │  │  │  │  │          test_copy.cpython-36.pyc
+│  │  │  │  │  │  │          test_drop.cpython-36.pyc
+│  │  │  │  │  │  │          test_duplicates.cpython-36.pyc
+│  │  │  │  │  │  │          test_equivalence.cpython-36.pyc
+│  │  │  │  │  │  │          test_format.cpython-36.pyc
+│  │  │  │  │  │  │          test_get_set.cpython-36.pyc
+│  │  │  │  │  │  │          test_indexing.cpython-36.pyc
+│  │  │  │  │  │  │          test_integrity.cpython-36.pyc
+│  │  │  │  │  │  │          test_join.cpython-36.pyc
+│  │  │  │  │  │  │          test_missing.cpython-36.pyc
+│  │  │  │  │  │  │          test_monotonic.cpython-36.pyc
+│  │  │  │  │  │  │          test_names.cpython-36.pyc
+│  │  │  │  │  │  │          test_partial_indexing.cpython-36.pyc
+│  │  │  │  │  │  │          test_reindex.cpython-36.pyc
+│  │  │  │  │  │  │          test_reshape.cpython-36.pyc
+│  │  │  │  │  │  │          test_setops.cpython-36.pyc
+│  │  │  │  │  │  │          test_sorting.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─period
+│  │  │  │  │  │  │  │  test_asfreq.py
+│  │  │  │  │  │  │  │  test_astype.py
+│  │  │  │  │  │  │  │  test_constructors.py
+│  │  │  │  │  │  │  │  test_formats.py
+│  │  │  │  │  │  │  │  test_indexing.py
+│  │  │  │  │  │  │  │  test_ops.py
+│  │  │  │  │  │  │  │  test_partial_slicing.py
+│  │  │  │  │  │  │  │  test_period.py
+│  │  │  │  │  │  │  │  test_period_range.py
+│  │  │  │  │  │  │  │  test_scalar_compat.py
+│  │  │  │  │  │  │  │  test_setops.py
+│  │  │  │  │  │  │  │  test_shift.py
+│  │  │  │  │  │  │  │  test_tools.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_asfreq.cpython-36.pyc
+│  │  │  │  │  │  │          test_astype.cpython-36.pyc
+│  │  │  │  │  │  │          test_constructors.cpython-36.pyc
+│  │  │  │  │  │  │          test_formats.cpython-36.pyc
+│  │  │  │  │  │  │          test_indexing.cpython-36.pyc
+│  │  │  │  │  │  │          test_ops.cpython-36.pyc
+│  │  │  │  │  │  │          test_partial_slicing.cpython-36.pyc
+│  │  │  │  │  │  │          test_period.cpython-36.pyc
+│  │  │  │  │  │  │          test_period_range.cpython-36.pyc
+│  │  │  │  │  │  │          test_scalar_compat.cpython-36.pyc
+│  │  │  │  │  │  │          test_setops.cpython-36.pyc
+│  │  │  │  │  │  │          test_shift.cpython-36.pyc
+│  │  │  │  │  │  │          test_tools.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─ranges
+│  │  │  │  │  │  │  │  test_constructors.py
+│  │  │  │  │  │  │  │  test_range.py
+│  │  │  │  │  │  │  │  test_setops.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_constructors.cpython-36.pyc
+│  │  │  │  │  │  │          test_range.cpython-36.pyc
+│  │  │  │  │  │  │          test_setops.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─timedeltas
+│  │  │  │  │  │  │  │  test_astype.py
+│  │  │  │  │  │  │  │  test_constructors.py
+│  │  │  │  │  │  │  │  test_formats.py
+│  │  │  │  │  │  │  │  test_indexing.py
+│  │  │  │  │  │  │  │  test_join.py
+│  │  │  │  │  │  │  │  test_ops.py
+│  │  │  │  │  │  │  │  test_partial_slicing.py
+│  │  │  │  │  │  │  │  test_scalar_compat.py
+│  │  │  │  │  │  │  │  test_setops.py
+│  │  │  │  │  │  │  │  test_shift.py
+│  │  │  │  │  │  │  │  test_timedelta.py
+│  │  │  │  │  │  │  │  test_timedelta_range.py
+│  │  │  │  │  │  │  │  test_tools.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_astype.cpython-36.pyc
+│  │  │  │  │  │  │          test_constructors.cpython-36.pyc
+│  │  │  │  │  │  │          test_formats.cpython-36.pyc
+│  │  │  │  │  │  │          test_indexing.cpython-36.pyc
+│  │  │  │  │  │  │          test_join.cpython-36.pyc
+│  │  │  │  │  │  │          test_ops.cpython-36.pyc
+│  │  │  │  │  │  │          test_partial_slicing.cpython-36.pyc
+│  │  │  │  │  │  │          test_scalar_compat.cpython-36.pyc
+│  │  │  │  │  │  │          test_setops.cpython-36.pyc
+│  │  │  │  │  │  │          test_shift.cpython-36.pyc
+│  │  │  │  │  │  │          test_timedelta.cpython-36.pyc
+│  │  │  │  │  │  │          test_timedelta_range.cpython-36.pyc
+│  │  │  │  │  │  │          test_tools.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          common.cpython-36.pyc
+│  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │          datetimelike.cpython-36.pyc
+│  │  │  │  │  │          test_base.cpython-36.pyc
+│  │  │  │  │  │          test_common.cpython-36.pyc
+│  │  │  │  │  │          test_frozen.cpython-36.pyc
+│  │  │  │  │  │          test_numeric.cpython-36.pyc
+│  │  │  │  │  │          test_numpy_compat.cpython-36.pyc
+│  │  │  │  │  │          test_setops.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─indexing
+│  │  │  │  │  │  │  common.py
+│  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  test_callable.py
+│  │  │  │  │  │  │  test_categorical.py
+│  │  │  │  │  │  │  test_chaining_and_caching.py
+│  │  │  │  │  │  │  test_check_indexer.py
+│  │  │  │  │  │  │  test_coercion.py
+│  │  │  │  │  │  │  test_datetime.py
+│  │  │  │  │  │  │  test_floats.py
+│  │  │  │  │  │  │  test_iloc.py
+│  │  │  │  │  │  │  test_indexing.py
+│  │  │  │  │  │  │  test_indexing_engines.py
+│  │  │  │  │  │  │  test_indexing_slow.py
+│  │  │  │  │  │  │  test_loc.py
+│  │  │  │  │  │  │  test_na_indexing.py
+│  │  │  │  │  │  │  test_partial.py
+│  │  │  │  │  │  │  test_scalar.py
+│  │  │  │  │  │  │  test_timedelta.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─interval
+│  │  │  │  │  │  │  │  test_interval.py
+│  │  │  │  │  │  │  │  test_interval_new.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_interval.cpython-36.pyc
+│  │  │  │  │  │  │          test_interval_new.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─multiindex
+│  │  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  │  test_chaining_and_caching.py
+│  │  │  │  │  │  │  │  test_datetime.py
+│  │  │  │  │  │  │  │  test_getitem.py
+│  │  │  │  │  │  │  │  test_iloc.py
+│  │  │  │  │  │  │  │  test_indexing_slow.py
+│  │  │  │  │  │  │  │  test_ix.py
+│  │  │  │  │  │  │  │  test_loc.py
+│  │  │  │  │  │  │  │  test_multiindex.py
+│  │  │  │  │  │  │  │  test_partial.py
+│  │  │  │  │  │  │  │  test_setitem.py
+│  │  │  │  │  │  │  │  test_set_ops.py
+│  │  │  │  │  │  │  │  test_slice.py
+│  │  │  │  │  │  │  │  test_sorted.py
+│  │  │  │  │  │  │  │  test_xs.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │  │          test_chaining_and_caching.cpython-36.pyc
+│  │  │  │  │  │  │          test_datetime.cpython-36.pyc
+│  │  │  │  │  │  │          test_getitem.cpython-36.pyc
+│  │  │  │  │  │  │          test_iloc.cpython-36.pyc
+│  │  │  │  │  │  │          test_indexing_slow.cpython-36.pyc
+│  │  │  │  │  │  │          test_ix.cpython-36.pyc
+│  │  │  │  │  │  │          test_loc.cpython-36.pyc
+│  │  │  │  │  │  │          test_multiindex.cpython-36.pyc
+│  │  │  │  │  │  │          test_partial.cpython-36.pyc
+│  │  │  │  │  │  │          test_setitem.cpython-36.pyc
+│  │  │  │  │  │  │          test_set_ops.cpython-36.pyc
+│  │  │  │  │  │  │          test_slice.cpython-36.pyc
+│  │  │  │  │  │  │          test_sorted.cpython-36.pyc
+│  │  │  │  │  │  │          test_xs.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          common.cpython-36.pyc
+│  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │          test_callable.cpython-36.pyc
+│  │  │  │  │  │          test_categorical.cpython-36.pyc
+│  │  │  │  │  │          test_chaining_and_caching.cpython-36.pyc
+│  │  │  │  │  │          test_check_indexer.cpython-36.pyc
+│  │  │  │  │  │          test_coercion.cpython-36.pyc
+│  │  │  │  │  │          test_datetime.cpython-36.pyc
+│  │  │  │  │  │          test_floats.cpython-36.pyc
+│  │  │  │  │  │          test_iloc.cpython-36.pyc
+│  │  │  │  │  │          test_indexing.cpython-36.pyc
+│  │  │  │  │  │          test_indexing_engines.cpython-36.pyc
+│  │  │  │  │  │          test_indexing_slow.cpython-36.pyc
+│  │  │  │  │  │          test_loc.cpython-36.pyc
+│  │  │  │  │  │          test_na_indexing.cpython-36.pyc
+│  │  │  │  │  │          test_partial.cpython-36.pyc
+│  │  │  │  │  │          test_scalar.cpython-36.pyc
+│  │  │  │  │  │          test_timedelta.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─internals
+│  │  │  │  │  │  │  test_internals.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_internals.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─io
+│  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  generate_legacy_storage_files.py
+│  │  │  │  │  │  │  test_clipboard.py
+│  │  │  │  │  │  │  test_common.py
+│  │  │  │  │  │  │  test_compression.py
+│  │  │  │  │  │  │  test_date_converters.py
+│  │  │  │  │  │  │  test_feather.py
+│  │  │  │  │  │  │  test_gbq.py
+│  │  │  │  │  │  │  test_gcs.py
+│  │  │  │  │  │  │  test_html.py
+│  │  │  │  │  │  │  test_orc.py
+│  │  │  │  │  │  │  test_parquet.py
+│  │  │  │  │  │  │  test_pickle.py
+│  │  │  │  │  │  │  test_s3.py
+│  │  │  │  │  │  │  test_spss.py
+│  │  │  │  │  │  │  test_sql.py
+│  │  │  │  │  │  │  test_stata.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─excel
+│  │  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  │  test_odf.py
+│  │  │  │  │  │  │  │  test_openpyxl.py
+│  │  │  │  │  │  │  │  test_readers.py
+│  │  │  │  │  │  │  │  test_style.py
+│  │  │  │  │  │  │  │  test_writers.py
+│  │  │  │  │  │  │  │  test_xlrd.py
+│  │  │  │  │  │  │  │  test_xlsxwriter.py
+│  │  │  │  │  │  │  │  test_xlwt.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │  │          test_odf.cpython-36.pyc
+│  │  │  │  │  │  │          test_openpyxl.cpython-36.pyc
+│  │  │  │  │  │  │          test_readers.cpython-36.pyc
+│  │  │  │  │  │  │          test_style.cpython-36.pyc
+│  │  │  │  │  │  │          test_writers.cpython-36.pyc
+│  │  │  │  │  │  │          test_xlrd.cpython-36.pyc
+│  │  │  │  │  │  │          test_xlsxwriter.cpython-36.pyc
+│  │  │  │  │  │  │          test_xlwt.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─formats
+│  │  │  │  │  │  │  │  test_console.py
+│  │  │  │  │  │  │  │  test_css.py
+│  │  │  │  │  │  │  │  test_eng_formatting.py
+│  │  │  │  │  │  │  │  test_format.py
+│  │  │  │  │  │  │  │  test_printing.py
+│  │  │  │  │  │  │  │  test_style.py
+│  │  │  │  │  │  │  │  test_to_csv.py
+│  │  │  │  │  │  │  │  test_to_excel.py
+│  │  │  │  │  │  │  │  test_to_html.py
+│  │  │  │  │  │  │  │  test_to_latex.py
+│  │  │  │  │  │  │  │  test_to_markdown.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_console.cpython-36.pyc
+│  │  │  │  │  │  │          test_css.cpython-36.pyc
+│  │  │  │  │  │  │          test_eng_formatting.cpython-36.pyc
+│  │  │  │  │  │  │          test_format.cpython-36.pyc
+│  │  │  │  │  │  │          test_printing.cpython-36.pyc
+│  │  │  │  │  │  │          test_style.cpython-36.pyc
+│  │  │  │  │  │  │          test_to_csv.cpython-36.pyc
+│  │  │  │  │  │  │          test_to_excel.cpython-36.pyc
+│  │  │  │  │  │  │          test_to_html.cpython-36.pyc
+│  │  │  │  │  │  │          test_to_latex.cpython-36.pyc
+│  │  │  │  │  │  │          test_to_markdown.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─json
+│  │  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  │  test_compression.py
+│  │  │  │  │  │  │  │  test_json_table_schema.py
+│  │  │  │  │  │  │  │  test_normalize.py
+│  │  │  │  │  │  │  │  test_pandas.py
+│  │  │  │  │  │  │  │  test_readlines.py
+│  │  │  │  │  │  │  │  test_ujson.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │  │          test_compression.cpython-36.pyc
+│  │  │  │  │  │  │          test_json_table_schema.cpython-36.pyc
+│  │  │  │  │  │  │          test_normalize.cpython-36.pyc
+│  │  │  │  │  │  │          test_pandas.cpython-36.pyc
+│  │  │  │  │  │  │          test_readlines.cpython-36.pyc
+│  │  │  │  │  │  │          test_ujson.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─parser
+│  │  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  │  test_comment.py
+│  │  │  │  │  │  │  │  test_common.py
+│  │  │  │  │  │  │  │  test_compression.py
+│  │  │  │  │  │  │  │  test_converters.py
+│  │  │  │  │  │  │  │  test_c_parser_only.py
+│  │  │  │  │  │  │  │  test_dialect.py
+│  │  │  │  │  │  │  │  test_dtypes.py
+│  │  │  │  │  │  │  │  test_encoding.py
+│  │  │  │  │  │  │  │  test_header.py
+│  │  │  │  │  │  │  │  test_index_col.py
+│  │  │  │  │  │  │  │  test_mangle_dupes.py
+│  │  │  │  │  │  │  │  test_multi_thread.py
+│  │  │  │  │  │  │  │  test_na_values.py
+│  │  │  │  │  │  │  │  test_network.py
+│  │  │  │  │  │  │  │  test_parse_dates.py
+│  │  │  │  │  │  │  │  test_python_parser_only.py
+│  │  │  │  │  │  │  │  test_quoting.py
+│  │  │  │  │  │  │  │  test_read_fwf.py
+│  │  │  │  │  │  │  │  test_skiprows.py
+│  │  │  │  │  │  │  │  test_textreader.py
+│  │  │  │  │  │  │  │  test_unsupported.py
+│  │  │  │  │  │  │  │  test_usecols.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │  │          test_comment.cpython-36.pyc
+│  │  │  │  │  │  │          test_common.cpython-36.pyc
+│  │  │  │  │  │  │          test_compression.cpython-36.pyc
+│  │  │  │  │  │  │          test_converters.cpython-36.pyc
+│  │  │  │  │  │  │          test_c_parser_only.cpython-36.pyc
+│  │  │  │  │  │  │          test_dialect.cpython-36.pyc
+│  │  │  │  │  │  │          test_dtypes.cpython-36.pyc
+│  │  │  │  │  │  │          test_encoding.cpython-36.pyc
+│  │  │  │  │  │  │          test_header.cpython-36.pyc
+│  │  │  │  │  │  │          test_index_col.cpython-36.pyc
+│  │  │  │  │  │  │          test_mangle_dupes.cpython-36.pyc
+│  │  │  │  │  │  │          test_multi_thread.cpython-36.pyc
+│  │  │  │  │  │  │          test_na_values.cpython-36.pyc
+│  │  │  │  │  │  │          test_network.cpython-36.pyc
+│  │  │  │  │  │  │          test_parse_dates.cpython-36.pyc
+│  │  │  │  │  │  │          test_python_parser_only.cpython-36.pyc
+│  │  │  │  │  │  │          test_quoting.cpython-36.pyc
+│  │  │  │  │  │  │          test_read_fwf.cpython-36.pyc
+│  │  │  │  │  │  │          test_skiprows.cpython-36.pyc
+│  │  │  │  │  │  │          test_textreader.cpython-36.pyc
+│  │  │  │  │  │  │          test_unsupported.cpython-36.pyc
+│  │  │  │  │  │  │          test_usecols.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─pytables
+│  │  │  │  │  │  │  │  common.py
+│  │  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  │  test_compat.py
+│  │  │  │  │  │  │  │  test_complex.py
+│  │  │  │  │  │  │  │  test_pytables_missing.py
+│  │  │  │  │  │  │  │  test_store.py
+│  │  │  │  │  │  │  │  test_timezones.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          common.cpython-36.pyc
+│  │  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │  │          test_compat.cpython-36.pyc
+│  │  │  │  │  │  │          test_complex.cpython-36.pyc
+│  │  │  │  │  │  │          test_pytables_missing.cpython-36.pyc
+│  │  │  │  │  │  │          test_store.cpython-36.pyc
+│  │  │  │  │  │  │          test_timezones.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─sas
+│  │  │  │  │  │  │  │  test_sas.py
+│  │  │  │  │  │  │  │  test_sas7bdat.py
+│  │  │  │  │  │  │  │  test_xport.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_sas.cpython-36.pyc
+│  │  │  │  │  │  │          test_sas7bdat.cpython-36.pyc
+│  │  │  │  │  │  │          test_xport.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │          generate_legacy_storage_files.cpython-36.pyc
+│  │  │  │  │  │          test_clipboard.cpython-36.pyc
+│  │  │  │  │  │          test_common.cpython-36.pyc
+│  │  │  │  │  │          test_compression.cpython-36.pyc
+│  │  │  │  │  │          test_date_converters.cpython-36.pyc
+│  │  │  │  │  │          test_feather.cpython-36.pyc
+│  │  │  │  │  │          test_gbq.cpython-36.pyc
+│  │  │  │  │  │          test_gcs.cpython-36.pyc
+│  │  │  │  │  │          test_html.cpython-36.pyc
+│  │  │  │  │  │          test_orc.cpython-36.pyc
+│  │  │  │  │  │          test_parquet.cpython-36.pyc
+│  │  │  │  │  │          test_pickle.cpython-36.pyc
+│  │  │  │  │  │          test_s3.cpython-36.pyc
+│  │  │  │  │  │          test_spss.cpython-36.pyc
+│  │  │  │  │  │          test_sql.cpython-36.pyc
+│  │  │  │  │  │          test_stata.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─plotting
+│  │  │  │  │  │  │  common.py
+│  │  │  │  │  │  │  test_backend.py
+│  │  │  │  │  │  │  test_boxplot_method.py
+│  │  │  │  │  │  │  test_converter.py
+│  │  │  │  │  │  │  test_datetimelike.py
+│  │  │  │  │  │  │  test_frame.py
+│  │  │  │  │  │  │  test_groupby.py
+│  │  │  │  │  │  │  test_hist_method.py
+│  │  │  │  │  │  │  test_misc.py
+│  │  │  │  │  │  │  test_series.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          common.cpython-36.pyc
+│  │  │  │  │  │          test_backend.cpython-36.pyc
+│  │  │  │  │  │          test_boxplot_method.cpython-36.pyc
+│  │  │  │  │  │          test_converter.cpython-36.pyc
+│  │  │  │  │  │          test_datetimelike.cpython-36.pyc
+│  │  │  │  │  │          test_frame.cpython-36.pyc
+│  │  │  │  │  │          test_groupby.cpython-36.pyc
+│  │  │  │  │  │          test_hist_method.cpython-36.pyc
+│  │  │  │  │  │          test_misc.cpython-36.pyc
+│  │  │  │  │  │          test_series.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─reductions
+│  │  │  │  │  │  │  test_reductions.py
+│  │  │  │  │  │  │  test_stat_reductions.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_reductions.cpython-36.pyc
+│  │  │  │  │  │          test_stat_reductions.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─resample
+│  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  test_base.py
+│  │  │  │  │  │  │  test_datetime_index.py
+│  │  │  │  │  │  │  test_period_index.py
+│  │  │  │  │  │  │  test_resampler_grouper.py
+│  │  │  │  │  │  │  test_resample_api.py
+│  │  │  │  │  │  │  test_timedelta.py
+│  │  │  │  │  │  │  test_time_grouper.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │          test_base.cpython-36.pyc
+│  │  │  │  │  │          test_datetime_index.cpython-36.pyc
+│  │  │  │  │  │          test_period_index.cpython-36.pyc
+│  │  │  │  │  │          test_resampler_grouper.cpython-36.pyc
+│  │  │  │  │  │          test_resample_api.cpython-36.pyc
+│  │  │  │  │  │          test_timedelta.cpython-36.pyc
+│  │  │  │  │  │          test_time_grouper.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─reshape
+│  │  │  │  │  │  │  test_concat.py
+│  │  │  │  │  │  │  test_cut.py
+│  │  │  │  │  │  │  test_melt.py
+│  │  │  │  │  │  │  test_pivot.py
+│  │  │  │  │  │  │  test_qcut.py
+│  │  │  │  │  │  │  test_reshape.py
+│  │  │  │  │  │  │  test_union_categoricals.py
+│  │  │  │  │  │  │  test_util.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─merge
+│  │  │  │  │  │  │  │  test_join.py
+│  │  │  │  │  │  │  │  test_merge.py
+│  │  │  │  │  │  │  │  test_merge_asof.py
+│  │  │  │  │  │  │  │  test_merge_index_as_string.py
+│  │  │  │  │  │  │  │  test_merge_ordered.py
+│  │  │  │  │  │  │  │  test_multi.py
+│  │  │  │  │  │  │  │  test_pivot_old.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_join.cpython-36.pyc
+│  │  │  │  │  │  │          test_merge.cpython-36.pyc
+│  │  │  │  │  │  │          test_merge_asof.cpython-36.pyc
+│  │  │  │  │  │  │          test_merge_index_as_string.cpython-36.pyc
+│  │  │  │  │  │  │          test_merge_ordered.cpython-36.pyc
+│  │  │  │  │  │  │          test_multi.cpython-36.pyc
+│  │  │  │  │  │  │          test_pivot_old.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_concat.cpython-36.pyc
+│  │  │  │  │  │          test_cut.cpython-36.pyc
+│  │  │  │  │  │          test_melt.cpython-36.pyc
+│  │  │  │  │  │          test_pivot.cpython-36.pyc
+│  │  │  │  │  │          test_qcut.cpython-36.pyc
+│  │  │  │  │  │          test_reshape.cpython-36.pyc
+│  │  │  │  │  │          test_union_categoricals.cpython-36.pyc
+│  │  │  │  │  │          test_util.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─scalar
+│  │  │  │  │  │  │  test_nat.py
+│  │  │  │  │  │  │  test_na_scalar.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─interval
+│  │  │  │  │  │  │  │  test_interval.py
+│  │  │  │  │  │  │  │  test_ops.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_interval.cpython-36.pyc
+│  │  │  │  │  │  │          test_ops.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─period
+│  │  │  │  │  │  │  │  test_asfreq.py
+│  │  │  │  │  │  │  │  test_period.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_asfreq.cpython-36.pyc
+│  │  │  │  │  │  │          test_period.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─timedelta
+│  │  │  │  │  │  │  │  test_arithmetic.py
+│  │  │  │  │  │  │  │  test_constructors.py
+│  │  │  │  │  │  │  │  test_formats.py
+│  │  │  │  │  │  │  │  test_timedelta.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_arithmetic.cpython-36.pyc
+│  │  │  │  │  │  │          test_constructors.cpython-36.pyc
+│  │  │  │  │  │  │          test_formats.cpython-36.pyc
+│  │  │  │  │  │  │          test_timedelta.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─timestamp
+│  │  │  │  │  │  │  │  test_arithmetic.py
+│  │  │  │  │  │  │  │  test_comparisons.py
+│  │  │  │  │  │  │  │  test_rendering.py
+│  │  │  │  │  │  │  │  test_timestamp.py
+│  │  │  │  │  │  │  │  test_timezones.py
+│  │  │  │  │  │  │  │  test_unary_ops.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_arithmetic.cpython-36.pyc
+│  │  │  │  │  │  │          test_comparisons.cpython-36.pyc
+│  │  │  │  │  │  │          test_rendering.cpython-36.pyc
+│  │  │  │  │  │  │          test_timestamp.cpython-36.pyc
+│  │  │  │  │  │  │          test_timezones.cpython-36.pyc
+│  │  │  │  │  │  │          test_unary_ops.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_nat.cpython-36.pyc
+│  │  │  │  │  │          test_na_scalar.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─series
+│  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  test_alter_axes.py
+│  │  │  │  │  │  │  test_analytics.py
+│  │  │  │  │  │  │  test_api.py
+│  │  │  │  │  │  │  test_apply.py
+│  │  │  │  │  │  │  test_arithmetic.py
+│  │  │  │  │  │  │  test_block_internals.py
+│  │  │  │  │  │  │  test_combine_concat.py
+│  │  │  │  │  │  │  test_constructors.py
+│  │  │  │  │  │  │  test_convert_dtypes.py
+│  │  │  │  │  │  │  test_cumulative.py
+│  │  │  │  │  │  │  test_datetime_values.py
+│  │  │  │  │  │  │  test_dtypes.py
+│  │  │  │  │  │  │  test_duplicates.py
+│  │  │  │  │  │  │  test_internals.py
+│  │  │  │  │  │  │  test_io.py
+│  │  │  │  │  │  │  test_missing.py
+│  │  │  │  │  │  │  test_operators.py
+│  │  │  │  │  │  │  test_period.py
+│  │  │  │  │  │  │  test_repr.py
+│  │  │  │  │  │  │  test_subclass.py
+│  │  │  │  │  │  │  test_timeseries.py
+│  │  │  │  │  │  │  test_timezones.py
+│  │  │  │  │  │  │  test_ufunc.py
+│  │  │  │  │  │  │  test_validate.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─indexing
+│  │  │  │  │  │  │  │  test_alter_index.py
+│  │  │  │  │  │  │  │  test_boolean.py
+│  │  │  │  │  │  │  │  test_callable.py
+│  │  │  │  │  │  │  │  test_datetime.py
+│  │  │  │  │  │  │  │  test_iloc.py
+│  │  │  │  │  │  │  │  test_indexing.py
+│  │  │  │  │  │  │  │  test_loc.py
+│  │  │  │  │  │  │  │  test_numeric.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_alter_index.cpython-36.pyc
+│  │  │  │  │  │  │          test_boolean.cpython-36.pyc
+│  │  │  │  │  │  │          test_callable.cpython-36.pyc
+│  │  │  │  │  │  │          test_datetime.cpython-36.pyc
+│  │  │  │  │  │  │          test_iloc.cpython-36.pyc
+│  │  │  │  │  │  │          test_indexing.cpython-36.pyc
+│  │  │  │  │  │  │          test_loc.cpython-36.pyc
+│  │  │  │  │  │  │          test_numeric.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─methods
+│  │  │  │  │  │  │  │  test_append.py
+│  │  │  │  │  │  │  │  test_argsort.py
+│  │  │  │  │  │  │  │  test_asof.py
+│  │  │  │  │  │  │  │  test_clip.py
+│  │  │  │  │  │  │  │  test_count.py
+│  │  │  │  │  │  │  │  test_cov_corr.py
+│  │  │  │  │  │  │  │  test_describe.py
+│  │  │  │  │  │  │  │  test_diff.py
+│  │  │  │  │  │  │  │  test_drop_duplicates.py
+│  │  │  │  │  │  │  │  test_duplicated.py
+│  │  │  │  │  │  │  │  test_explode.py
+│  │  │  │  │  │  │  │  test_isin.py
+│  │  │  │  │  │  │  │  test_nlargest.py
+│  │  │  │  │  │  │  │  test_pct_change.py
+│  │  │  │  │  │  │  │  test_quantile.py
+│  │  │  │  │  │  │  │  test_rank.py
+│  │  │  │  │  │  │  │  test_replace.py
+│  │  │  │  │  │  │  │  test_round.py
+│  │  │  │  │  │  │  │  test_searchsorted.py
+│  │  │  │  │  │  │  │  test_shift.py
+│  │  │  │  │  │  │  │  test_sort_index.py
+│  │  │  │  │  │  │  │  test_sort_values.py
+│  │  │  │  │  │  │  │  test_to_dict.py
+│  │  │  │  │  │  │  │  test_truncate.py
+│  │  │  │  │  │  │  │  test_value_counts.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_append.cpython-36.pyc
+│  │  │  │  │  │  │          test_argsort.cpython-36.pyc
+│  │  │  │  │  │  │          test_asof.cpython-36.pyc
+│  │  │  │  │  │  │          test_clip.cpython-36.pyc
+│  │  │  │  │  │  │          test_count.cpython-36.pyc
+│  │  │  │  │  │  │          test_cov_corr.cpython-36.pyc
+│  │  │  │  │  │  │          test_describe.cpython-36.pyc
+│  │  │  │  │  │  │          test_diff.cpython-36.pyc
+│  │  │  │  │  │  │          test_drop_duplicates.cpython-36.pyc
+│  │  │  │  │  │  │          test_duplicated.cpython-36.pyc
+│  │  │  │  │  │  │          test_explode.cpython-36.pyc
+│  │  │  │  │  │  │          test_isin.cpython-36.pyc
+│  │  │  │  │  │  │          test_nlargest.cpython-36.pyc
+│  │  │  │  │  │  │          test_pct_change.cpython-36.pyc
+│  │  │  │  │  │  │          test_quantile.cpython-36.pyc
+│  │  │  │  │  │  │          test_rank.cpython-36.pyc
+│  │  │  │  │  │  │          test_replace.cpython-36.pyc
+│  │  │  │  │  │  │          test_round.cpython-36.pyc
+│  │  │  │  │  │  │          test_searchsorted.cpython-36.pyc
+│  │  │  │  │  │  │          test_shift.cpython-36.pyc
+│  │  │  │  │  │  │          test_sort_index.cpython-36.pyc
+│  │  │  │  │  │  │          test_sort_values.cpython-36.pyc
+│  │  │  │  │  │  │          test_to_dict.cpython-36.pyc
+│  │  │  │  │  │  │          test_truncate.cpython-36.pyc
+│  │  │  │  │  │  │          test_value_counts.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │          test_alter_axes.cpython-36.pyc
+│  │  │  │  │  │          test_analytics.cpython-36.pyc
+│  │  │  │  │  │          test_api.cpython-36.pyc
+│  │  │  │  │  │          test_apply.cpython-36.pyc
+│  │  │  │  │  │          test_arithmetic.cpython-36.pyc
+│  │  │  │  │  │          test_block_internals.cpython-36.pyc
+│  │  │  │  │  │          test_combine_concat.cpython-36.pyc
+│  │  │  │  │  │          test_constructors.cpython-36.pyc
+│  │  │  │  │  │          test_convert_dtypes.cpython-36.pyc
+│  │  │  │  │  │          test_cumulative.cpython-36.pyc
+│  │  │  │  │  │          test_datetime_values.cpython-36.pyc
+│  │  │  │  │  │          test_dtypes.cpython-36.pyc
+│  │  │  │  │  │          test_duplicates.cpython-36.pyc
+│  │  │  │  │  │          test_internals.cpython-36.pyc
+│  │  │  │  │  │          test_io.cpython-36.pyc
+│  │  │  │  │  │          test_missing.cpython-36.pyc
+│  │  │  │  │  │          test_operators.cpython-36.pyc
+│  │  │  │  │  │          test_period.cpython-36.pyc
+│  │  │  │  │  │          test_repr.cpython-36.pyc
+│  │  │  │  │  │          test_subclass.cpython-36.pyc
+│  │  │  │  │  │          test_timeseries.cpython-36.pyc
+│  │  │  │  │  │          test_timezones.cpython-36.pyc
+│  │  │  │  │  │          test_ufunc.cpython-36.pyc
+│  │  │  │  │  │          test_validate.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─tools
+│  │  │  │  │  │  │  test_numeric.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_numeric.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─tseries
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  ├─frequencies
+│  │  │  │  │  │  │  │  test_freq_code.py
+│  │  │  │  │  │  │  │  test_inference.py
+│  │  │  │  │  │  │  │  test_to_offset.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_freq_code.cpython-36.pyc
+│  │  │  │  │  │  │          test_inference.cpython-36.pyc
+│  │  │  │  │  │  │          test_to_offset.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─holiday
+│  │  │  │  │  │  │  │  test_calendar.py
+│  │  │  │  │  │  │  │  test_federal.py
+│  │  │  │  │  │  │  │  test_holiday.py
+│  │  │  │  │  │  │  │  test_observance.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          test_calendar.cpython-36.pyc
+│  │  │  │  │  │  │          test_federal.cpython-36.pyc
+│  │  │  │  │  │  │          test_holiday.cpython-36.pyc
+│  │  │  │  │  │  │          test_observance.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  ├─offsets
+│  │  │  │  │  │  │  │  common.py
+│  │  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  │  test_fiscal.py
+│  │  │  │  │  │  │  │  test_offsets.py
+│  │  │  │  │  │  │  │  test_offsets_properties.py
+│  │  │  │  │  │  │  │  test_ticks.py
+│  │  │  │  │  │  │  │  test_yqm_offsets.py
+│  │  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  │  
+│  │  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │  │          common.cpython-36.pyc
+│  │  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │  │          test_fiscal.cpython-36.pyc
+│  │  │  │  │  │  │          test_offsets.cpython-36.pyc
+│  │  │  │  │  │  │          test_offsets_properties.cpython-36.pyc
+│  │  │  │  │  │  │          test_ticks.cpython-36.pyc
+│  │  │  │  │  │  │          test_yqm_offsets.cpython-36.pyc
+│  │  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │  │          
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─tslibs
+│  │  │  │  │  │  │  test_api.py
+│  │  │  │  │  │  │  test_array_to_datetime.py
+│  │  │  │  │  │  │  test_ccalendar.py
+│  │  │  │  │  │  │  test_conversion.py
+│  │  │  │  │  │  │  test_fields.py
+│  │  │  │  │  │  │  test_libfrequencies.py
+│  │  │  │  │  │  │  test_liboffsets.py
+│  │  │  │  │  │  │  test_normalize_date.py
+│  │  │  │  │  │  │  test_parse_iso8601.py
+│  │  │  │  │  │  │  test_parsing.py
+│  │  │  │  │  │  │  test_period_asfreq.py
+│  │  │  │  │  │  │  test_timedeltas.py
+│  │  │  │  │  │  │  test_timezones.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          test_api.cpython-36.pyc
+│  │  │  │  │  │          test_array_to_datetime.cpython-36.pyc
+│  │  │  │  │  │          test_ccalendar.cpython-36.pyc
+│  │  │  │  │  │          test_conversion.cpython-36.pyc
+│  │  │  │  │  │          test_fields.cpython-36.pyc
+│  │  │  │  │  │          test_libfrequencies.cpython-36.pyc
+│  │  │  │  │  │          test_liboffsets.cpython-36.pyc
+│  │  │  │  │  │          test_normalize_date.cpython-36.pyc
+│  │  │  │  │  │          test_parse_iso8601.cpython-36.pyc
+│  │  │  │  │  │          test_parsing.cpython-36.pyc
+│  │  │  │  │  │          test_period_asfreq.cpython-36.pyc
+│  │  │  │  │  │          test_timedeltas.cpython-36.pyc
+│  │  │  │  │  │          test_timezones.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─util
+│  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  test_assert_almost_equal.py
+│  │  │  │  │  │  │  test_assert_categorical_equal.py
+│  │  │  │  │  │  │  test_assert_extension_array_equal.py
+│  │  │  │  │  │  │  test_assert_frame_equal.py
+│  │  │  │  │  │  │  test_assert_index_equal.py
+│  │  │  │  │  │  │  test_assert_interval_array_equal.py
+│  │  │  │  │  │  │  test_assert_numpy_array_equal.py
+│  │  │  │  │  │  │  test_assert_produces_warning.py
+│  │  │  │  │  │  │  test_assert_series_equal.py
+│  │  │  │  │  │  │  test_deprecate.py
+│  │  │  │  │  │  │  test_deprecate_kwarg.py
+│  │  │  │  │  │  │  test_hashing.py
+│  │  │  │  │  │  │  test_safe_import.py
+│  │  │  │  │  │  │  test_util.py
+│  │  │  │  │  │  │  test_validate_args.py
+│  │  │  │  │  │  │  test_validate_args_and_kwargs.py
+│  │  │  │  │  │  │  test_validate_kwargs.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │          test_assert_almost_equal.cpython-36.pyc
+│  │  │  │  │  │          test_assert_categorical_equal.cpython-36.pyc
+│  │  │  │  │  │          test_assert_extension_array_equal.cpython-36.pyc
+│  │  │  │  │  │          test_assert_frame_equal.cpython-36.pyc
+│  │  │  │  │  │          test_assert_index_equal.cpython-36.pyc
+│  │  │  │  │  │          test_assert_interval_array_equal.cpython-36.pyc
+│  │  │  │  │  │          test_assert_numpy_array_equal.cpython-36.pyc
+│  │  │  │  │  │          test_assert_produces_warning.cpython-36.pyc
+│  │  │  │  │  │          test_assert_series_equal.cpython-36.pyc
+│  │  │  │  │  │          test_deprecate.cpython-36.pyc
+│  │  │  │  │  │          test_deprecate_kwarg.cpython-36.pyc
+│  │  │  │  │  │          test_hashing.cpython-36.pyc
+│  │  │  │  │  │          test_safe_import.cpython-36.pyc
+│  │  │  │  │  │          test_util.cpython-36.pyc
+│  │  │  │  │  │          test_validate_args.cpython-36.pyc
+│  │  │  │  │  │          test_validate_args_and_kwargs.cpython-36.pyc
+│  │  │  │  │  │          test_validate_kwargs.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─window
+│  │  │  │  │  │  │  common.py
+│  │  │  │  │  │  │  conftest.py
+│  │  │  │  │  │  │  test_api.py
+│  │  │  │  │  │  │  test_apply.py
+│  │  │  │  │  │  │  test_base_indexer.py
+│  │  │  │  │  │  │  test_dtypes.py
+│  │  │  │  │  │  │  test_ewm.py
+│  │  │  │  │  │  │  test_expanding.py
+│  │  │  │  │  │  │  test_grouper.py
+│  │  │  │  │  │  │  test_numba.py
+│  │  │  │  │  │  │  test_pairwise.py
+│  │  │  │  │  │  │  test_rolling.py
+│  │  │  │  │  │  │  test_timeseries_window.py
+│  │  │  │  │  │  │  test_window.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          common.cpython-36.pyc
+│  │  │  │  │  │          conftest.cpython-36.pyc
+│  │  │  │  │  │          test_api.cpython-36.pyc
+│  │  │  │  │  │          test_apply.cpython-36.pyc
+│  │  │  │  │  │          test_base_indexer.cpython-36.pyc
+│  │  │  │  │  │          test_dtypes.cpython-36.pyc
+│  │  │  │  │  │          test_ewm.cpython-36.pyc
+│  │  │  │  │  │          test_expanding.cpython-36.pyc
+│  │  │  │  │  │          test_grouper.cpython-36.pyc
+│  │  │  │  │  │          test_numba.cpython-36.pyc
+│  │  │  │  │  │          test_pairwise.cpython-36.pyc
+│  │  │  │  │  │          test_rolling.cpython-36.pyc
+│  │  │  │  │  │          test_timeseries_window.cpython-36.pyc
+│  │  │  │  │  │          test_window.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          test_algos.cpython-36.pyc
+│  │  │  │  │          test_common.cpython-36.pyc
+│  │  │  │  │          test_compat.cpython-36.pyc
+│  │  │  │  │          test_downstream.cpython-36.pyc
+│  │  │  │  │          test_errors.cpython-36.pyc
+│  │  │  │  │          test_expressions.cpython-36.pyc
+│  │  │  │  │          test_join.cpython-36.pyc
+│  │  │  │  │          test_lib.cpython-36.pyc
+│  │  │  │  │          test_multilevel.cpython-36.pyc
+│  │  │  │  │          test_nanops.cpython-36.pyc
+│  │  │  │  │          test_optional_dependency.cpython-36.pyc
+│  │  │  │  │          test_register_accessor.cpython-36.pyc
+│  │  │  │  │          test_sorting.cpython-36.pyc
+│  │  │  │  │          test_strings.cpython-36.pyc
+│  │  │  │  │          test_take.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─tseries
+│  │  │  │  │  │  api.py
+│  │  │  │  │  │  frequencies.py
+│  │  │  │  │  │  holiday.py
+│  │  │  │  │  │  offsets.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          api.cpython-36.pyc
+│  │  │  │  │          frequencies.cpython-36.pyc
+│  │  │  │  │          holiday.cpython-36.pyc
+│  │  │  │  │          offsets.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─util
+│  │  │  │  │  │  testing.py
+│  │  │  │  │  │  _decorators.py
+│  │  │  │  │  │  _depr_module.py
+│  │  │  │  │  │  _doctools.py
+│  │  │  │  │  │  _exceptions.py
+│  │  │  │  │  │  _print_versions.py
+│  │  │  │  │  │  _tester.py
+│  │  │  │  │  │  _test_decorators.py
+│  │  │  │  │  │  _validators.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          testing.cpython-36.pyc
+│  │  │  │  │          _decorators.cpython-36.pyc
+│  │  │  │  │          _depr_module.cpython-36.pyc
+│  │  │  │  │          _doctools.cpython-36.pyc
+│  │  │  │  │          _exceptions.cpython-36.pyc
+│  │  │  │  │          _print_versions.cpython-36.pyc
+│  │  │  │  │          _tester.cpython-36.pyc
+│  │  │  │  │          _test_decorators.cpython-36.pyc
+│  │  │  │  │          _validators.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─_config
+│  │  │  │  │  │  config.py
+│  │  │  │  │  │  dates.py
+│  │  │  │  │  │  display.py
+│  │  │  │  │  │  localization.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          config.cpython-36.pyc
+│  │  │  │  │          dates.cpython-36.pyc
+│  │  │  │  │          display.cpython-36.pyc
+│  │  │  │  │          localization.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─_libs
+│  │  │  │  │  │  algos.cp36-win_amd64.pyd
+│  │  │  │  │  │  groupby.cp36-win_amd64.pyd
+│  │  │  │  │  │  hashing.cp36-win_amd64.pyd
+│  │  │  │  │  │  hashtable.cp36-win_amd64.pyd
+│  │  │  │  │  │  index.cp36-win_amd64.pyd
+│  │  │  │  │  │  indexing.cp36-win_amd64.pyd
+│  │  │  │  │  │  internals.cp36-win_amd64.pyd
+│  │  │  │  │  │  interval.cp36-win_amd64.pyd
+│  │  │  │  │  │  join.cp36-win_amd64.pyd
+│  │  │  │  │  │  json.cp36-win_amd64.pyd
+│  │  │  │  │  │  lib.cp36-win_amd64.pyd
+│  │  │  │  │  │  missing.cp36-win_amd64.pyd
+│  │  │  │  │  │  ops.cp36-win_amd64.pyd
+│  │  │  │  │  │  ops_dispatch.cp36-win_amd64.pyd
+│  │  │  │  │  │  parsers.cp36-win_amd64.pyd
+│  │  │  │  │  │  properties.cp36-win_amd64.pyd
+│  │  │  │  │  │  reduction.cp36-win_amd64.pyd
+│  │  │  │  │  │  reshape.cp36-win_amd64.pyd
+│  │  │  │  │  │  sparse.cp36-win_amd64.pyd
+│  │  │  │  │  │  testing.cp36-win_amd64.pyd
+│  │  │  │  │  │  tslib.cp36-win_amd64.pyd
+│  │  │  │  │  │  writers.cp36-win_amd64.pyd
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─tslibs
+│  │  │  │  │  │  │  ccalendar.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  conversion.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  c_timestamp.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  fields.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  frequencies.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  nattype.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  np_datetime.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  offsets.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  parsing.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  period.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  resolution.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  strptime.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  timedeltas.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  timestamps.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  timezones.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  tzconversion.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  ├─window
+│  │  │  │  │  │  │  aggregations.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  indexers.cp36-win_amd64.pyd
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  └─__pycache__
+│  │  │  │          conftest.cpython-36.pyc
+│  │  │  │          testing.cpython-36.pyc
+│  │  │  │          _testing.cpython-36.pyc
+│  │  │  │          _typing.cpython-36.pyc
+│  │  │  │          _version.cpython-36.pyc
+│  │  │  │          __init__.cpython-36.pyc
+│  │  │  │          
+│  │  │  ├─pandas-1.0.3.dist-info
+│  │  │  │      AUTHORS.md
+│  │  │  │      entry_points.txt
+│  │  │  │      INSTALLER
+│  │  │  │      LICENSE
+│  │  │  │      METADATA
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─pipreqs
+│  │  │  │  │  mapping
+│  │  │  │  │  pipreqs.py
+│  │  │  │  │  stdlib
+│  │  │  │  │  __init__.py
+│  │  │  │  │  
+│  │  │  │  └─__pycache__
+│  │  │  │          pipreqs.cpython-36.pyc
+│  │  │  │          __init__.cpython-36.pyc
+│  │  │  │          
+│  │  │  ├─pipreqs-0.4.10.dist-info
+│  │  │  │      AUTHORS.rst
+│  │  │  │      entry_points.txt
+│  │  │  │      INSTALLER
+│  │  │  │      LICENSE
+│  │  │  │      METADATA
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─pycparser
+│  │  │  │  │  ast_transforms.py
+│  │  │  │  │  c_ast.py
+│  │  │  │  │  c_generator.py
+│  │  │  │  │  c_lexer.py
+│  │  │  │  │  c_parser.py
+│  │  │  │  │  lextab.py
+│  │  │  │  │  plyparser.py
+│  │  │  │  │  yacctab.py
+│  │  │  │  │  _ast_gen.py
+│  │  │  │  │  _build_tables.py
+│  │  │  │  │  _c_ast.cfg
+│  │  │  │  │  __init__.py
+│  │  │  │  │  
+│  │  │  │  ├─ply
+│  │  │  │  │  │  cpp.py
+│  │  │  │  │  │  ctokens.py
+│  │  │  │  │  │  lex.py
+│  │  │  │  │  │  yacc.py
+│  │  │  │  │  │  ygen.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          cpp.cpython-36.pyc
+│  │  │  │  │          ctokens.cpython-36.pyc
+│  │  │  │  │          lex.cpython-36.pyc
+│  │  │  │  │          yacc.cpython-36.pyc
+│  │  │  │  │          ygen.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  └─__pycache__
+│  │  │  │          ast_transforms.cpython-36.pyc
+│  │  │  │          c_ast.cpython-36.pyc
+│  │  │  │          c_generator.cpython-36.pyc
+│  │  │  │          c_lexer.cpython-36.pyc
+│  │  │  │          c_parser.cpython-36.pyc
+│  │  │  │          lextab.cpython-36.pyc
+│  │  │  │          plyparser.cpython-36.pyc
+│  │  │  │          yacctab.cpython-36.pyc
+│  │  │  │          _ast_gen.cpython-36.pyc
+│  │  │  │          _build_tables.cpython-36.pyc
+│  │  │  │          __init__.cpython-36.pyc
+│  │  │  │          
+│  │  │  ├─pycparser-2.20.dist-info
+│  │  │  │      INSTALLER
+│  │  │  │      LICENSE
+│  │  │  │      METADATA
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─pymssql-2.1.4.dist-info
+│  │  │  │      INSTALLER
+│  │  │  │      METADATA
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─pymysql
+│  │  │  │  │  charset.py
+│  │  │  │  │  connections.py
+│  │  │  │  │  converters.py
+│  │  │  │  │  cursors.py
+│  │  │  │  │  err.py
+│  │  │  │  │  optionfile.py
+│  │  │  │  │  protocol.py
+│  │  │  │  │  times.py
+│  │  │  │  │  util.py
+│  │  │  │  │  _auth.py
+│  │  │  │  │  _compat.py
+│  │  │  │  │  _socketio.py
+│  │  │  │  │  __init__.py
+│  │  │  │  │  
+│  │  │  │  ├─constants
+│  │  │  │  │  │  CLIENT.py
+│  │  │  │  │  │  COMMAND.py
+│  │  │  │  │  │  CR.py
+│  │  │  │  │  │  ER.py
+│  │  │  │  │  │  FIELD_TYPE.py
+│  │  │  │  │  │  FLAG.py
+│  │  │  │  │  │  SERVER_STATUS.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          CLIENT.cpython-36.pyc
+│  │  │  │  │          COMMAND.cpython-36.pyc
+│  │  │  │  │          CR.cpython-36.pyc
+│  │  │  │  │          ER.cpython-36.pyc
+│  │  │  │  │          FIELD_TYPE.cpython-36.pyc
+│  │  │  │  │          FLAG.cpython-36.pyc
+│  │  │  │  │          SERVER_STATUS.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  └─__pycache__
+│  │  │  │          charset.cpython-36.pyc
+│  │  │  │          connections.cpython-36.pyc
+│  │  │  │          converters.cpython-36.pyc
+│  │  │  │          cursors.cpython-36.pyc
+│  │  │  │          err.cpython-36.pyc
+│  │  │  │          optionfile.cpython-36.pyc
+│  │  │  │          protocol.cpython-36.pyc
+│  │  │  │          times.cpython-36.pyc
+│  │  │  │          util.cpython-36.pyc
+│  │  │  │          _auth.cpython-36.pyc
+│  │  │  │          _compat.cpython-36.pyc
+│  │  │  │          _socketio.cpython-36.pyc
+│  │  │  │          __init__.cpython-36.pyc
+│  │  │  │          
+│  │  │  ├─PyMySQL-0.9.3.dist-info
+│  │  │  │      INSTALLER
+│  │  │  │      LICENSE
+│  │  │  │      METADATA
+│  │  │  │      pbr.json
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─pymysql_kits
+│  │  │  │  │  errors.py
+│  │  │  │  │  pooling.py
+│  │  │  │  │  _connector.py
+│  │  │  │  │  __init__.py
+│  │  │  │  │  
+│  │  │  │  └─__pycache__
+│  │  │  │          errors.cpython-36.pyc
+│  │  │  │          pooling.cpython-36.pyc
+│  │  │  │          _connector.cpython-36.pyc
+│  │  │  │          __init__.cpython-36.pyc
+│  │  │  │          
+│  │  │  ├─pymysql_kits-0.1.4.dist-info
+│  │  │  │      INSTALLER
+│  │  │  │      LICENSE
+│  │  │  │      METADATA
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─sqlacodegen
+│  │  │  │  │  codegen.py
+│  │  │  │  │  main.py
+│  │  │  │  │  __init__.py
+│  │  │  │  │  
+│  │  │  │  └─__pycache__
+│  │  │  │          codegen.cpython-36.pyc
+│  │  │  │          main.cpython-36.pyc
+│  │  │  │          __init__.cpython-36.pyc
+│  │  │  │          
+│  │  │  ├─sqlacodegen-2.1.0.dist-info
+│  │  │  │      entry_points.txt
+│  │  │  │      INSTALLER
+│  │  │  │      LICENSE
+│  │  │  │      METADATA
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─sqlalchemy_utils
+│  │  │  │  │  aggregates.py
+│  │  │  │  │  asserts.py
+│  │  │  │  │  exceptions.py
+│  │  │  │  │  expressions.py
+│  │  │  │  │  generic.py
+│  │  │  │  │  i18n.py
+│  │  │  │  │  listeners.py
+│  │  │  │  │  models.py
+│  │  │  │  │  observer.py
+│  │  │  │  │  operators.py
+│  │  │  │  │  path.py
+│  │  │  │  │  proxy_dict.py
+│  │  │  │  │  query_chain.py
+│  │  │  │  │  utils.py
+│  │  │  │  │  view.py
+│  │  │  │  │  __init__.py
+│  │  │  │  │  
+│  │  │  │  ├─functions
+│  │  │  │  │  │  database.py
+│  │  │  │  │  │  foreign_keys.py
+│  │  │  │  │  │  mock.py
+│  │  │  │  │  │  orm.py
+│  │  │  │  │  │  render.py
+│  │  │  │  │  │  sort_query.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          database.cpython-36.pyc
+│  │  │  │  │          foreign_keys.cpython-36.pyc
+│  │  │  │  │          mock.cpython-36.pyc
+│  │  │  │  │          orm.cpython-36.pyc
+│  │  │  │  │          render.cpython-36.pyc
+│  │  │  │  │          sort_query.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─primitives
+│  │  │  │  │  │  country.py
+│  │  │  │  │  │  currency.py
+│  │  │  │  │  │  ltree.py
+│  │  │  │  │  │  weekday.py
+│  │  │  │  │  │  weekdays.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          country.cpython-36.pyc
+│  │  │  │  │          currency.cpython-36.pyc
+│  │  │  │  │          ltree.cpython-36.pyc
+│  │  │  │  │          weekday.cpython-36.pyc
+│  │  │  │  │          weekdays.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─relationships
+│  │  │  │  │  │  chained_join.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          chained_join.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  ├─types
+│  │  │  │  │  │  arrow.py
+│  │  │  │  │  │  bit.py
+│  │  │  │  │  │  choice.py
+│  │  │  │  │  │  color.py
+│  │  │  │  │  │  country.py
+│  │  │  │  │  │  currency.py
+│  │  │  │  │  │  email.py
+│  │  │  │  │  │  ip_address.py
+│  │  │  │  │  │  json.py
+│  │  │  │  │  │  locale.py
+│  │  │  │  │  │  ltree.py
+│  │  │  │  │  │  password.py
+│  │  │  │  │  │  pg_composite.py
+│  │  │  │  │  │  phone_number.py
+│  │  │  │  │  │  range.py
+│  │  │  │  │  │  scalar_coercible.py
+│  │  │  │  │  │  scalar_list.py
+│  │  │  │  │  │  timezone.py
+│  │  │  │  │  │  ts_vector.py
+│  │  │  │  │  │  url.py
+│  │  │  │  │  │  uuid.py
+│  │  │  │  │  │  weekdays.py
+│  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  
+│  │  │  │  │  ├─encrypted
+│  │  │  │  │  │  │  encrypted_type.py
+│  │  │  │  │  │  │  padding.py
+│  │  │  │  │  │  │  __init__.py
+│  │  │  │  │  │  │  
+│  │  │  │  │  │  └─__pycache__
+│  │  │  │  │  │          encrypted_type.cpython-36.pyc
+│  │  │  │  │  │          padding.cpython-36.pyc
+│  │  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │  │          
+│  │  │  │  │  └─__pycache__
+│  │  │  │  │          arrow.cpython-36.pyc
+│  │  │  │  │          bit.cpython-36.pyc
+│  │  │  │  │          choice.cpython-36.pyc
+│  │  │  │  │          color.cpython-36.pyc
+│  │  │  │  │          country.cpython-36.pyc
+│  │  │  │  │          currency.cpython-36.pyc
+│  │  │  │  │          email.cpython-36.pyc
+│  │  │  │  │          ip_address.cpython-36.pyc
+│  │  │  │  │          json.cpython-36.pyc
+│  │  │  │  │          locale.cpython-36.pyc
+│  │  │  │  │          ltree.cpython-36.pyc
+│  │  │  │  │          password.cpython-36.pyc
+│  │  │  │  │          pg_composite.cpython-36.pyc
+│  │  │  │  │          phone_number.cpython-36.pyc
+│  │  │  │  │          range.cpython-36.pyc
+│  │  │  │  │          scalar_coercible.cpython-36.pyc
+│  │  │  │  │          scalar_list.cpython-36.pyc
+│  │  │  │  │          timezone.cpython-36.pyc
+│  │  │  │  │          ts_vector.cpython-36.pyc
+│  │  │  │  │          url.cpython-36.pyc
+│  │  │  │  │          uuid.cpython-36.pyc
+│  │  │  │  │          weekdays.cpython-36.pyc
+│  │  │  │  │          __init__.cpython-36.pyc
+│  │  │  │  │          
+│  │  │  │  └─__pycache__
+│  │  │  │          aggregates.cpython-36.pyc
+│  │  │  │          asserts.cpython-36.pyc
+│  │  │  │          exceptions.cpython-36.pyc
+│  │  │  │          expressions.cpython-36.pyc
+│  │  │  │          generic.cpython-36.pyc
+│  │  │  │          i18n.cpython-36.pyc
+│  │  │  │          listeners.cpython-36.pyc
+│  │  │  │          models.cpython-36.pyc
+│  │  │  │          observer.cpython-36.pyc
+│  │  │  │          operators.cpython-36.pyc
+│  │  │  │          path.cpython-36.pyc
+│  │  │  │          proxy_dict.cpython-36.pyc
+│  │  │  │          query_chain.cpython-36.pyc
+│  │  │  │          utils.cpython-36.pyc
+│  │  │  │          view.cpython-36.pyc
+│  │  │  │          __init__.cpython-36.pyc
+│  │  │  │          
+│  │  │  ├─SQLAlchemy_Utils-0.36.3.dist-info
+│  │  │  │      INSTALLER
+│  │  │  │      LICENSE
+│  │  │  │      METADATA
+│  │  │  │      pbr.json
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  ├─tests
+│  │  │  │  │  test_client.py
+│  │  │  │  │  test_exceptions.py
+│  │  │  │  │  test_package.py
+│  │  │  │  │  test_parse.py
+│  │  │  │  │  test_release.py
+│  │  │  │  │  __init__.py
+│  │  │  │  │  
+│  │  │  │  └─__pycache__
+│  │  │  │          test_client.cpython-36.pyc
+│  │  │  │          test_exceptions.cpython-36.pyc
+│  │  │  │          test_package.cpython-36.pyc
+│  │  │  │          test_parse.cpython-36.pyc
+│  │  │  │          test_release.cpython-36.pyc
+│  │  │  │          __init__.cpython-36.pyc
+│  │  │  │          
+│  │  │  ├─yarg
+│  │  │  │  │  client.py
+│  │  │  │  │  exceptions.py
+│  │  │  │  │  package.py
+│  │  │  │  │  parse.py
+│  │  │  │  │  release.py
+│  │  │  │  │  __about__.py
+│  │  │  │  │  __init__.py
+│  │  │  │  │  
+│  │  │  │  └─__pycache__
+│  │  │  │          client.cpython-36.pyc
+│  │  │  │          exceptions.cpython-36.pyc
+│  │  │  │          package.cpython-36.pyc
+│  │  │  │          parse.cpython-36.pyc
+│  │  │  │          release.cpython-36.pyc
+│  │  │  │          __about__.cpython-36.pyc
+│  │  │  │          __init__.cpython-36.pyc
+│  │  │  │          
+│  │  │  ├─yarg-0.1.9.dist-info
+│  │  │  │      DESCRIPTION.rst
+│  │  │  │      INSTALLER
+│  │  │  │      METADATA
+│  │  │  │      metadata.json
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      zip-safe
+│  │  │  │      
+│  │  │  ├─zipp-3.1.0.dist-info
+│  │  │  │      INSTALLER
+│  │  │  │      LICENSE
+│  │  │  │      METADATA
+│  │  │  │      RECORD
+│  │  │  │      top_level.txt
+│  │  │  │      WHEEL
+│  │  │  │      
+│  │  │  └─__pycache__
+│  │  │          docopt.cpython-36.pyc
+│  │  │          flask_sockets.cpython-36.pyc
+│  │  │          flask_uploads.cpython-36.pyc
+│  │  │          inflect.cpython-36.pyc
+│  │  │          zipp.cpython-36.pyc
+│  │  │          
+│  │  └─tcl8.6
+│  │          init.tcl
+│  │          
+│  └─Scripts
+│          activate
+│          activate.bat
+│          Activate.ps1
+│          deactivate.bat
+│          f2py.exe
+│          pipreqs.exe
+│          pyexpat.pyd
+│          python.exe
+│          python3.dll
+│          python36.dll
+│          pythonw.exe
+│          select.pyd
+│          sqlacodegen.exe
+│          sqlite3.dll
+│          tcl86t.dll
+│          tk86t.dll
+│          unicodedata.pyd
+│          vcruntime140.dll
+│          winsound.pyd
+│          _asyncio.pyd
+│          _bz2.pyd
+│          _ctypes.pyd
+│          _ctypes_test.pyd
+│          _decimal.pyd
+│          _distutils_findvs.pyd
+│          _elementtree.pyd
+│          _hashlib.pyd
+│          _lzma.pyd
+│          _msi.pyd
+│          _multiprocessing.pyd
+│          _overlapped.pyd
+│          _socket.pyd
+│          _sqlite3.pyd
+│          _ssl.pyd
+│          _testbuffer.pyd
+│          _testcapi.pyd
+│          _testconsole.pyd
+│          _testimportmultiple.pyd
+│          _testmultiphase.pyd
+│          _tkinter.pyd
+│          
+└─__pycache__
+        run.cpython-36.pyc
+        settings.cpython-36.pyc
+        
